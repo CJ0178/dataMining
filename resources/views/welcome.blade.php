@@ -19,6 +19,7 @@
         <div class="ml-[260px]">
             @include('dataset')
             @include('heatmap')
+            @include('relasi/agedepres')
             @include('relasi/edudepres')
             @include('relasi/marriagedepress')
             @include('relasi/ageedu')
@@ -26,5 +27,6 @@
             @include('relasi/laborincoming')
         </div>
     </div>
+    <script type="text/javascript" src="dataMining/node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 </body>
 </html>
