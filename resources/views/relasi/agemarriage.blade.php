@@ -4,7 +4,7 @@
 
 <!-- Component -->
 <div class="overflow-hidden">
-    <div class="py-3 px-5 bg-gray-50">Age | Mariage Status</div>
+    <div class="py-3 px-5 bg-gray-50">Count of Depressed Individuals by Age Range and Married Status</div>
     <canvas class="p-10" id="chartLine2"></canvas>
   </div>
 
@@ -37,7 +37,24 @@
     const configLineChart2 = {
       type: "line",
       data: data2,
-      options: {},
+      options: {
+        scales: {
+            x: {
+                display: true,
+                title: {
+                    display: true,
+                    text: 'Age Range'
+                }
+            },
+            y: {
+                display: true,
+                title: {
+                    display: true,
+                    text: 'Count of Depressed Individuals'
+                }
+            }
+        }
+      },
     };
 
     var chartLine2 = new Chart(
