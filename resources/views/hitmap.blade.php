@@ -1,0 +1,3 @@
+<div>
+    ini hitmap
+</div>
