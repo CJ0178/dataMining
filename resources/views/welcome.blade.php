@@ -16,7 +16,7 @@
             @include('nav')
         </div>
 
-        <div class="pl-[260px] w-full ">
+        <div class="pl-[225px] w-full ">
             @include('dataset')
             @include('heatmap')
             @include('relasi/agedepres')
