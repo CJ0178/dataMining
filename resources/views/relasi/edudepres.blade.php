@@ -4,7 +4,7 @@
 
 <!-- 1 -->
 <div class="overflow-hidden mx-auto w-[90%]">
-    <div class="py-3 px-5 bg-gray-50">Average Degree of Depression by Education Level Groups</div>
+    <div class="py-3 px-5 bg-gray-50 text-lg font-bold text-center">Average Degree of Depression by Education Level Groups</div>
     <canvas class="p-10" id="chartLine"></canvas>
 </div>
 
@@ -16,15 +16,15 @@
 
 <!-- Chart line -->
 <script>
-    const labels = ['1-8', '9-12', '13-19'];
+    const labels = ['','1-8', '9-12', '13-19',''];
     const data = {
         labels: labels,
         datasets: [
             {
-                label: "My First dataset",
+                label: "Average",
                 backgroundColor: "#035afc",
                 borderColor: "#035afc",
-                data: [0.19951338, 0.13990268, 0.14736842],
+                data: [,0.19951338, 0.13990268, 0.14736842,],
             },
         ],
     };
@@ -37,7 +37,7 @@
                 datalabels: {
                     anchor: 'end',
                     align: 'top',
-                    formatter: (value) => value.toFixed(4),
+                    formatter: (value) => value,
                     color: "#000000",
                     font: {
                         size: 14,
