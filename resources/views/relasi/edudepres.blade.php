@@ -1,4 +1,4 @@
-<div>
+<div id="edudepress">
     ini edudepress
 </div>
 
