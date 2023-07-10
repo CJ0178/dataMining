@@ -9,7 +9,7 @@
           <table
             class="min-w-full border text-center text-sm font-light dark:border-neutral-500">
             <thead class="border-b font-medium dark:border-neutral-500">
-              <tr>
+              <tr class="bg-[#5C9998]">
                 <th
                   scope="col"
                   class="border-r p-2 dark:border-neutral-500">
