@@ -2,80 +2,9 @@
     ini agemarriage <br>
 </div>
 
-{{-- <!-- Component -->
-<div class="overflow-hidden">
-    <div class="py-3 px-5 bg-gray-50">Count of Depressed Individuals by Age Range and Married Status</div>
-    <canvas class="p-10" id="chartLine2"></canvas>
-  </div>
-
-  <!-- Required chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1"></script>
-
-  <!-- Chart line -->
-  <script>
-    const labels2 = ["", "20", "" , "30", "", "40", "", "50", "", "60", "", "70", "","80", ""];
-    const data2 = {
-      labels: labels2,
-      datasets: [
-        {
-          label: "Married",
-          backgroundColor: "#035afc",
-          borderColor: "#035afc",
-          data: [8, 49, 32, 26, 17, 9, 9, 7, 4, 3, 2, 2, 0, 0, 0],
-        },
-        {
-          label: "Non-Married",
-          backgroundColor: "#e8970c",
-          borderColor: "#e8970c",
-          data: [2, 5, 3, 5, 8, 8, 6, 8, 3, 3, 5, 3, 3, 4, 1],
-        },
-      ],
-    };
-
-    // data2.datasets[0].data = [0, 10, 20, 30, 40, 50];
-
-    const configLineChart2 = {
-      type: "line",
-      data: data2,
-      options: {
-        scales: {
-            x: {
-                display: true,
-                title: {
-                    display: true,
-                    text: 'Age Range'
-                }
-            },
-            y: {
-                display: true,
-                title: {
-                    display: true,
-                    text: 'Count of Depressed Individuals'
-                }
-            }
-        }
-        plugins: {
-            datalabels: {
-                formatter: (value, context) => {
-                    let total = context.dataset.data.reduce((acc, val) => acc + val, 0);
-                    let percentage = ((value * 100) / total).toFixed(1) + "%";
-                    return percentage;
-                },
-                color: "#000000",
-            },
-        },
-      },
-    };
-
-    var chartLine2 = new Chart(
-      document.getElementById("chartLine2"),
-      configLineChart2
-    );
-  </script> --}}
-
 <!-- Component -->
 <div class="overflow-hidden w-[95%] mx-auto">
-    <div class="py-3 px-5 bg-gray-50 text-center text-lg font-bold">Count of Depressed Individuals by Age Range and Married Status</div>
+    <div class="py-3 px-5 bg-gray-50 text-center text-lg font-bold">Average Married by Age Group</div>
     <canvas class="p-10" id="chartLine2"></canvas>
 </div>
 
@@ -84,22 +13,22 @@
 
 <!-- Chart line -->
 <script>
-    const labels2 = ["", "20", "", "30", "", "40", "", "50", "", "60", "", "70", "", "80", ""];
+    const labels2 = ["[15, 20]", "[20, 25]", "[25, 30]", "[30, 35]", "[35, 40]", "[40, 45]", "[45, 50]", "[50, 55]", "[55, 60]", "[60, 65]", "[65, 70]", "[70, 75]", "[75, 80]", "[80, 85]", "[85, 90]"];
     const data2 = {
         labels: labels2,
         datasets: [
             {
-                label: "Non-Married",
+                // label: "Non-Married",
                 backgroundColor: "#e8970c",
                 borderColor: "#e8970c",
-                data: [7, 25, 30, 45, 44, 35, 28, 23, 22, 19, 11, 10, 10, 7, 1],
+                data: [0.936, 0.920, 0.892, 0.778, 0.672, 0.632, 0.636, 0.610, 0.500, 0.525, 0.421, 0.286, 0.286, 0.000, 0.000],
             },
-            {
-                label: "Married",
-                backgroundColor: "#035afc",
-                borderColor: "#035afc",
-                data: [103, 287, 249, 158, 90, 60, 49, 36, 22, 21, 8, 4, 4, 0, 0],
-            },
+            // {
+            //     label: "Married",
+            //     backgroundColor: "#035afc",
+            //     borderColor: "#035afc",
+            //     data: [103, 287, 249, 158, 90, 60, 49, 36, 22, 21, 8, 4, 4, 0, 0],
+            // },
         ],
     };
 
@@ -112,7 +41,7 @@
                     display: true,
                     title: {
                         display: true,
-                        text: 'Age Range',
+                        text: 'Age Groups',
                         font: {
                             size: 16, // Ukuran font pada sumbu x
                             weight: 'bold',
@@ -128,7 +57,7 @@
                     display: true,
                     title: {
                         display: true,
-                        text: 'Count of Individuals',
+                        text: 'Average Married',
                         font: {
                             size: 16, // Ukuran font pada sumbu x
                             weight: 'bold',
@@ -153,12 +82,13 @@
                     },
                 },
                 legend: {
-                    labels: {
-                        font: {
-                            size: 16, // Ukuran font pada legend
-                            weight: 'bold'
-                        },
-                    },
+                    // labels: {
+                    //     font: {
+                    //         size: 16, // Ukuran font pada legend
+                    //         weight: 'bold'
+                    //     },
+                    // },
+                    display: false,
                 },
             },
         },
