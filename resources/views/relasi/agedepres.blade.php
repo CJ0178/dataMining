@@ -1,4 +1,4 @@
-<div class="w-[95%] mx-auto">
+<div class="w-[95%] mx-auto" id="agedepres">
     <div class="card">
         <h5 class="card-header font-bold text-lg text-center">Average Depressed by Age Group</h5>
         <div class="card-body">

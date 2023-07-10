@@ -3,7 +3,7 @@
 </div>
 
 <!-- 1 -->
-<div class="overflow-hidden mx-auto w-[90%]">
+<div class="overflow-hidden mx-auto w-[90%]" id="edudepres">
     <div class="py-3 px-5 bg-gray-50 text-lg font-bold text-center">Average Degree of Depression by Education Level Groups</div>
     <canvas class="p-10" id="chartLine"></canvas>
 </div>

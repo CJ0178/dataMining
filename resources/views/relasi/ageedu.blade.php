@@ -4,7 +4,7 @@
     ini ageedu
 </div>
 
-<div class="w-[95%] mx-auto">
+<div class="w-[95%] mx-auto" id="ageedu">
     <div class="card">
         <h5 class="card-header font-bold text-lg text-center">Average Education Level by Age Group</h5>
         <div class="card-body">
@@ -21,7 +21,7 @@
         data: {
             labels: ["Teenagers (12-25)", "Adults (26-45)", "Elderly (>46)"],
             datasets: [{
-                label: 'Teenagers',
+                // label: 'Teenagers',
                 data: [9.16, 9.23, 6.48],
                 backgroundColor: ["rgba(89, 105, 255)", "rgba(255, 64, 123)", "#25d5f2"],
                 // borderColor: "rgba(89, 105, 255)", "rgba(255, 64, 123)", "#25d5f2",

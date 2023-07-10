@@ -2,7 +2,7 @@
     ini laborincoming
 </div>
 
-<div class="flex items-center w-[100%] justify-center mx-auto">
+<div class="flex items-center w-[100%] justify-center mx-auto" id="laborincoming">
 <!-- pie chart 1 -->
 <div class="mx-auto">
     <div class="text-center text-lg bg-gray-50 font-bold">Distribution of Labor Primary 1 by Income Sources</div>

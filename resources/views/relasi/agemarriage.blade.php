@@ -3,7 +3,7 @@
 </div>
 
 <!-- Component -->
-<div class="overflow-hidden w-[95%] mx-auto">
+<div class="overflow-hidden w-[95%] mx-auto" id="agemarried">
     <div class="py-3 px-5 bg-gray-50 text-center text-lg font-bold">Average Married by Age Group</div>
     <canvas class="p-10" id="chartLine2"></canvas>
 </div>
