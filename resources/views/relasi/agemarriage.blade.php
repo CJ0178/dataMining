@@ -74,8 +74,8 @@
   </script> --}}
 
 <!-- Component -->
-<div class="overflow-hidden">
-    <div class="py-3 px-5 bg-gray-50">Count of Depressed Individuals by Age Range and Married Status</div>
+<div class="overflow-hidden w-[95%] mx-auto">
+    <div class="py-3 px-5 bg-gray-50 text-center text-lg font-bold">Count of Depressed Individuals by Age Range and Married Status</div>
     <canvas class="p-10" id="chartLine2"></canvas>
 </div>
 
@@ -89,16 +89,16 @@
         labels: labels2,
         datasets: [
             {
-                label: "Married",
-                backgroundColor: "#035afc",
-                borderColor: "#035afc",
-                data: [8, 49, 32, 26, 17, 9, 9, 7, 4, 3, 2, 2, 0, 0, 0],
-            },
-            {
                 label: "Non-Married",
                 backgroundColor: "#e8970c",
                 borderColor: "#e8970c",
-                data: [2, 5, 3, 5, 8, 8, 6, 8, 3, 3, 5, 3, 3, 4, 1],
+                data: [7, 25, 30, 45, 44, 35, 28, 23, 22, 19, 11, 10, 10, 7, 1],
+            },
+            {
+                label: "Married",
+                backgroundColor: "#035afc",
+                borderColor: "#035afc",
+                data: [103, 287, 249, 158, 90, 60, 49, 36, 22, 21, 8, 4, 4, 0, 0],
             },
         ],
     };
@@ -128,7 +128,7 @@
                     display: true,
                     title: {
                         display: true,
-                        text: 'Count of Depressed Individuals',
+                        text: 'Count of Individuals',
                         font: {
                             size: 16, // Ukuran font pada sumbu x
                             weight: 'bold',
