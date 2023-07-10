@@ -19,24 +19,12 @@
     var myChart_ageedu = new Chart(ctx_ageedu, {
         type: 'bar',
         data: {
-            labels: ["Teenagers (12-25)"],
+            labels: ["Teenagers (12-25)", "Adults (26-45)", "Elderly (>46)"],
             datasets: [{
                 label: 'Teenagers',
-                data: [9.16],
-                backgroundColor: "rgba(89, 105, 255)",
-                borderColor: "rgba(89, 105, 255)",
-                borderWidth: 2
-            },
-            {   label: 'Adults',
-                data: [9.23],
-                backgroundColor: "rgba(255, 64, 123)",
-                borderColor: "rgba(255, 64, 123)",
-                borderWidth: 2
-            }, {
-                label: 'Elderly',
-                data: [6.48],
-                backgroundColor: "#25d5f2",
-                borderColor: "#25d5f2",
+                data: [9.16, 9.23, 6.48],
+                backgroundColor: ["rgba(89, 105, 255)", "rgba(255, 64, 123)", "#25d5f2"],
+                // borderColor: "rgba(89, 105, 255)", "rgba(255, 64, 123)", "#25d5f2",
                 borderWidth: 2
             }]
         },
