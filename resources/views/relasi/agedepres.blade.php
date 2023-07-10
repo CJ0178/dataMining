@@ -1,6 +1,73 @@
-<div>
-    ini agedepress
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="card">
+        <h5 class="card-header">Bar Charts</h5>
+        <div class="card-body">
+            <canvas id="chartjs_bar"></canvas>
+        </div>
+    </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1"></script>
+<script>
+
+    var ctx = document.getElementById("chartjs_bar").getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ["M", "T", "W", "R", "F", "S", "S"],
+            datasets: [{
+                label: 'Almonds',
+                data: [12, 19, 3, 17, 28, 24, 7],
+               backgroundColor: "rgba(89, 105, 255,0.5)",
+                        borderColor: "rgba(89, 105, 255,0.7)",
+                borderWidth: 2
+            }, {
+                label: 'Cashew',
+                data: [30, 29, 5, 5, 20, 3, 10],
+               backgroundColor: "rgba(255, 64, 123,0.5)",
+                        borderColor: "rgba(255, 64, 123,0.7)",
+                borderWidth: 2
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+
+                }]
+            },
+                 legend: {
+            display: true,
+            position: 'bottom',
+
+            labels: {
+                fontColor: '#71748d',
+                fontFamily: 'Circular Std Book',
+                fontSize: 14,
+            }
+        },
+
+        scales: {
+            xAxes: [{
+                ticks: {
+                    fontSize: 14,
+                    fontFamily: 'Circular Std Book',
+                    fontColor: '#71748d',
+                }
+            }],
+            yAxes: [{
+                ticks: {
+                    fontSize: 14,
+                    fontFamily: 'Circular Std Book',
+                    fontColor: '#71748d',
+                }
+            }]
+        }
+    }
+
+
+    });
+
+</script>
+
 
 {{-- <style>
     .group:hover .group-hover\:block {
