@@ -1,8 +1,13 @@
-<div id="dataset">
-    ini dataset
+<div id="dataset" class="text-center pt-16 pb-8">
+    <p class="text-4xl font-bold mb-8">
+        Dataset Penduduk Kenya di Daerah Pedalaman pada Tahun 2015
+    </p>
+    <p class="text-gray-400">
+        Berikut adalah data sampel dari dataset yang digunakan
+    </p>
 </div>
 
-<div class="flex flex-col w-[95%]" id="dataset">
+<div class="flex flex-col w-[98%]">
     <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
       <div class="inline-block w-full py-2 sm:px-6 lg:px-8">
         <div class="overflow-auto">
@@ -553,4 +558,99 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
+
+<div class="flex flex-col items-center bg-red-200 ">
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-48 p-10 h-auto text-white">Survey_id</div>
+        <p>Individual identifier</p>
+    </div>
+    <div class="flex items-center">
+        <p>Village identifier</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Ville_id</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Sex</div>
+        <p>Respondent's gender</p>
+    </div>
+    <div class="flex items-center">
+        <p>Respondent's age</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Age</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Marriage</div>
+        <p>Marital status</p>
+    </div>
+    <div class="flex items-center">
+        <p>Number of children under 18 years old</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Number_children</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Education_level</div>
+        <p>Years of education completed</p>
+    </div>
+    <div class="flex items-center">
+        <p>Household size</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Total_members</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Gained_asset</div>
+        <p></p>
+    </div>
+    <div class="flex items-center">
+        <p>Value of durable goods</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Durable_asset</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Save_asset</div>
+        <p>Value of saving</p>
+    </div>
+    <div class="flex items-center">
+        <p></p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Living_expenses</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Other_expenses</div>
+        <p></p>
+    </div>
+    <div class="flex items-center">
+        <p>Value of durable goods</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_salary</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_own_farm</div>
+        <p>Own farm primary income</p>
+    </div>
+    <div class="flex items-center">
+        <p>Non-agricultural business primary income</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_business</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_no_business</div>
+        <p>Non-agricultural business owner</p>
+    </div>
+    <div class="flex items-center">
+        <p></p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_agricultural</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Farm_expenses</div>
+        <p>Farm low expense monthly</p>
+    </div>
+    <div class="flex items-center">
+        <p>Casual on which labor primary source of income</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Labor_primary</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Lasting_investment</div>
+        <p>Durable investment</p>
+    </div>
+    <div class="flex items-center">
+        <p>Non-durable investment</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">No_lasting_investmen</div>
+    </div>
+    <div class="flex items-center">
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Depressed</div>
+        <p>Meets epidemiological result for moderate depression</p>
+    </div>
+</div>
