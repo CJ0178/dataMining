@@ -2,20 +2,21 @@
     ini marriagedepress
 </div>
 
-<!-- pie chart 1 -->
+{{-- <!-- pie chart 1 -->
 <div class="overflow-hidden">
     <div class="py-3 px-5 bg-gray-50">Percentage of Married and Non-Married Individuals (Depressed)</div>
     <canvas class="p-1 ml-40 mr-40" id="chartPie"></canvas>
-  </div>
+</div>
 
-  <!-- Required chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
+<!-- Required chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
 
-  <!-- Required chartjs-plugin-datalabels -->
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+<!-- Required chartjs-plugin-datalabels -->
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
 
-  <!-- Chart pie -->
-  <script>
+<!-- Chart pie -->
+<script>
+    Chart.register(ChartDataLabels);
     const dataPie = {
       labels: ["Married", "Non-Married"],
       datasets: [
@@ -51,7 +52,6 @@
         },
       },
     };
-
     var chartPie = new Chart("chartPie", configPie);
   </script>
 
@@ -194,4 +194,4 @@
     };
 
     var chartPie4 = new Chart("chartPie4", configPie4);
-</script>
+</script> --}}
