@@ -1,4 +1,4 @@
-<div id="test">
+<div id="laborincoming">
     ini laborincoming
 </div>
 

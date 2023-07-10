@@ -16,7 +16,8 @@
             @include('nav')
         </div>
 
-        <div class="pl-[225px] w-full ">
+        <div class="pl-[250px] w-full " data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+            @include('team')
             @include('dataset')
             @include('heatmap')
             @include('relasi/agedepres')
