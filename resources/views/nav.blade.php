@@ -1,4 +1,8 @@
 <div class="navbar-nav fixed bg-[#2C7877] top-0 left-0 w-56 h-screen px-3 py-4 overflow-y-auto">
+    <div class="flex gap-1">
+        <div class="w-2 h-2 bg-[#96D0BD] rounded-full"></div>
+        <div class="w-2 h-2 bg-[#F8D9A0] rounded-full"></div>
+    </div>
     <ul class="space-y-2 font-medium">
         <li>
             <a href="#dataset" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#5C9998] group">
