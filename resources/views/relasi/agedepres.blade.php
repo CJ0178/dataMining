@@ -75,9 +75,9 @@
     </div>
 </div>
 
-<div class="mt-6 text-lg px-24">
+<div class="mt-6 text-xl px-24">
     <p class="text-center">
-        Rentang umur yang paling berpotensi menderita depresi adalah <span class="font-bold">kaum lansia</span>  (80-90).
+        Rentang umur yang paling berpotensi menderita depresi adalah <span class="font-bold text-[#E96832]">kaum lansia</span>  (80-90).
     </p>
     <p class="mt-8">
         Kaum lansia di Kenya kebanyakan ditelantarkan oleh anggota keluarganya, yang menyebabkan mereka kesulitan untuk menghidupi dirinya sendiri dikarenakan

@@ -49,7 +49,7 @@
 <style>
     #marriageheatmap {
         width: 100%;
-        height: 1%;
+        height: 0.8%;
         margin: 0;
         padding: 0;
     }
@@ -77,7 +77,7 @@
 
 <div class=" mt-12 text-lg px-24">
     <p class="text-center">
-        Status <span class="font-bold">"Non-Married"</span> lebih berpotensi mengalami depresi dibandingkan dengan status "Married". <br>
+        Status <span class="font-bold text-[#E96832]">"Non-Married"</span> lebih berpotensi mengalami depresi dibandingkan dengan status "Married". <br>
         Status "Non-Married" meliputi individu yang belum menikah sama sekali dan yang pernah menikah dan kemudian bercerai.
     </p>
     <p class="mt-8">
@@ -97,8 +97,8 @@
             datasets: [{
                 label: 'Average Degree of Depression',
                 data: [0.1540, 0.2107],
-               backgroundColor: "rgba(89, 105, 255,0.5)",
-                        borderColor: "rgba(89, 105, 255,0.7)",
+                backgroundColor: "#5C9998 ",
+                borderColor: "#2C7877",
                 borderWidth: 2
             }]
         },
