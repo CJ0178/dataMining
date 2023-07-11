@@ -69,8 +69,8 @@
     <div id="laborheatmap" class=""></div>
 </div>
 
-<div class="my-8 text-lg px-24">
-    <p class="text-center">
+<div class="my-8 text-2xl px-24">
+    <p class="text-center text-2xl">
         Individu yang menjadi tulang punggung kemungkinan besar bermata pencaharian sebagai <span class="font-bold text-[#E96832]">karyawan yang menerima gaji</span>.
     </p>
 </div>
@@ -214,14 +214,14 @@
 
 </div>
 
-<div class="my-12 text-xl px-24 text-justify">
-    <p class="text-center">
+<div class="my-12 text-2xl px-24 text-justify">
+    <p class="text-center text-2xl">
         <span class="font-bold text-[#E96832]">Incoming salary</span> merupakan sumber mata pencaharian bagi individu yang merupakan tulang punggung keluarga. <br>
         Walaupun di pendesaan, <span class="font-bold text-[#E96832]">incoming_own_farm</span> bukan menjadi sumber penghasilan utama.
         {{-- Berdasarkan pie chart Labor Primary 1, <span class="font-bold">incoming salary</span> menjadi sumber mata pencaharian individu yang merupakan tulang punggung. <br>
         Sedangkan berdasarkan pie chart Labor Primary 0, <span class="font-bold">incoming own farm</span> bukan merupakan sumber penghasilan utama. --}}
     </p>
-    <p class="mt-12">
+    <p class="mt-12 text-2xl">
         Di tahun 2015, banyak terjadi bencana banjir dan perubahan iklim yang menjadi faktor penyebab kegagalan panen bagi para petani di Kenya.
         <a href="https://meteo.go.ke/resources/downloads/extreme-weather-events-kenya-between-2011-and-2020" class="underline text-[#5C9998] hover:text-[#2C7877]">(Kenya Meteorogical Department, 2021)</a>
         <br> Disamping itu, Kenya juga diterpa bencana kemarau yang mengakibatkan banyak masyarakat mengalami kerugian besar dalam bidang pertanian.

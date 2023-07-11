@@ -69,8 +69,8 @@
     </div>
 </div>
 
-<div class=" mt-12 text-xl px-24 mb-32 text-justify">
-    <p class="text-center">
+<div class=" mt-12 text-2xl px-24 mb-32 text-justify">
+    <p class="text-center text-2xl">
         <span class="font-bold text-[#E96832]">Kaum muda</span> memiliki rata-rata education level yang lebih tinggi dibandingkan dengan kaum lansia.
     </p>
     <p class="mt-24">

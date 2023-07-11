@@ -97,7 +97,7 @@
 
 <div class="w-[75%] mx-auto mt-10">
     <div class="card">
-        <h5 class="card-header font-bold text-lg text-center">Average Depressed by Age Group</h5>
+        <h5 class="card-header font-bold text-2xl text-center">Average Depressed by Age Group</h5>
         <div class="card-body px-32">
             <canvas id="chartjs_bar"></canvas>
         </div>
@@ -105,10 +105,10 @@
 </div>
 
 <div class="mt-6 text-xl px-24">
-    <p class="text-center">
+    <p class="text-center text-2xl">
         Rentang umur yang paling berpotensi menderita depresi adalah <span class="font-bold text-[#E96832]">kaum lansia</span>  (80-90).
     </p>
-    <p class="mt-8">
+    <p class="mt-8 text-2xl">
         Kaum lansia di Kenya kebanyakan ditelantarkan oleh anggota keluarganya, yang menyebabkan mereka kesulitan untuk menghidupi dirinya sendiri dikarenakan
         penghasilan yang kurang memadai untuk merawat kesehatan mental mereka. <a href="https://africasciencenews.org/2017/04/07/kenya-elderly-want-government-action-against-depression/" class="underline text-[#5C9998] hover:text-[#2C7877]">(Africa Science News, 2016)</a>
     </p>
