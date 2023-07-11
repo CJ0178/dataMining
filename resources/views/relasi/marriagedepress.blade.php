@@ -84,7 +84,7 @@
 </style>
 
 <div id="marriagedepress" class="mt-32 pt-6">
-    <p class="text-3xl font-bold text-[#2C7877] mb-8 underline">
+    <p class="text-3xl font-bold text-[#2C7877] mb-2 underline">
         Marriage Status & Depressed
     </p>
 </div>
@@ -92,7 +92,7 @@
 <div id="marriageheatmap" class="">
 </div>
 
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mt-8">
     <div class="card">
         <div class="overflow-hidden mx-auto w-[90%]">
             <div class="py-4 bg-gray-50 text-lg font-bold text-center">Average Degree of Depression by Marital Status</div>
