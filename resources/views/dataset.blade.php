@@ -569,79 +569,118 @@
 <div class="flex flex-col items-center bg-red-300">
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit p-10 h-auto text-white">Survey_id</div>
-        <p>Individual identifier</p>
+        <p>Unique identifier assigned to each survey conducted to collect data from individuals.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p>Village identifier</p>
+        <p>A numerical or alphanumeric code assigned to a specific locality or area within a village.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Ville_id</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Sex</div>
-        <p>Respondent's gender</p>
+        <p>Individual's biological classification as male or female
+            <br> <span class="font-bold">(Boolean)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p>Respondent's age</p>
+        <p>Number of years an individual has lived since birth
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Age</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Marriage</div>
-        <p>Marital status</p>
+        <p>Individual's legal or social status regarding their marriage or partnership.
+            <br> <span class="font-bold">(Boolean)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p>Number of children under 18 years old</p>
+        <p>The total count of children an individual has whom under 18 years old.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Number_children</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Education_level</div>
-        <p>Years of education completed</p>
+        <p>The number of years of formal education an individual has completed.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p>Household size</p>
+        <p>The overall number of individuals living together and considered as part of a single family unit.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Total_members</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Gained_asset</div>
-        <p></p>
+        <p>The accumulation of assets or wealth acquired by an individual over a specific period
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p>Value of durable goods</p>
+        <p>Long-lasting physical assets or possessions owned by an individual.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Durable_asset</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Save_asset</div>
-        <p>Value of saving</p>
+        <p>The portion of income or resources set aside or saved for future use by an individual.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p></p>
+        <p>The regular or recurring costs incurred by an individual to cover basic necessities.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Living_expenses</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Other_expenses</div>
-        <p></p>
+        <p>Additional or miscellaneous expenses incurred by an individual beyond basic living expenses.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p>This attribute refers to the income received by an individual through employment or work done for an employer. It represents the regular earnings received by an individual in exchange for their services or work performed within an organization or company.</p>
+        <p>Income received by an individual through employment or work performed within an organization or company.
+            <br> <span class="font-bold">(boolean)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_salary</div>
     </div>
+
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_own_farm</div>
-        <p>This attribute specifically relates to the income generated from agricultural or farming activities that an individual owns and operates. It signifies the earnings obtained from cultivating crops, raising livestock, or engaging in other agricultural practices on their own farmland or agricultural property.</p>
+        <p>Income generated from agricultural or farming activities that an individual owns and operates.
+            <br> <span class="font-bold">(boolean)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p>This attribute pertains to the income generated from one's own business or entrepreneurial ventures. It signifies the revenue or profits earned by individuals who have established their own enterprises, such as small businesses, startups, or professional services.</p>
+        <p>Income generated from one's own business or entrepreneurial ventures. It signifies the revenue or profits earned by individuals who have established their own enterprises.
+            <br> <span class="font-bold">(boolean)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_business</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_no_business</div>
-        <p>This attribute represents the absence of income derived from any business activities. It refers to individuals who do not generate revenue through their own business ventures and instead rely on other sources of income, such as employment, investments, or passive income streams.</p>
+        <p>Income derived from any other sources of income, such as employment, investments, or passive income streams.
+            <br> <span class="font-bold">(boolean)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p></p>
+        <p>Income derived from agricultural activities.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_agricultural</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Farm_expenses</div>
-        <p>Farm low expense monthly</p>
+        <p>The costs incurred by farmers or agricultural businesses in the process of operating and maintaining their farming operations.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
     </div>
     <div class="flex items-center">
         <p>Casual on which labor primary source of income</p>
@@ -649,14 +688,20 @@
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Lasting_investment</div>
-        <p>Durable investment</p>
+        <p>Long-term investments made by an individual or household with the intention of preserving or growing their wealth over an extended period.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
     </div>
     <div class="flex items-center">
-        <p>Non-durable investment</p>
+        <p>The allocation of funds or resources towards short-term investment options or assets that are not intended for long-term wealth accumulation.
+            <br> <span class="font-bold">(Integer)</span>
+        </p>
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">No_lasting_investmen</div>
     </div>
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Depressed</div>
-        <p>Meets epidemiological result for moderate depression</p>
+        <p>Indicates whether an individual or entity is currently experiencing depression or not.
+            <br> <span class="font-bold">(Boolean)</span>
+        </p>
     </div>
 </div>
