@@ -78,7 +78,7 @@
 <style>
     #eduheatmap {
         width: 100%;
-        height: 1%;
+        height: 1.3%;
         margin: 0;
         padding: 0;
     }
