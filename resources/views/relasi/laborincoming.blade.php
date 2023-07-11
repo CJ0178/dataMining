@@ -202,5 +202,7 @@
         Di tahun 2015, banyak terjadi bencana banjir dan perubahan iklim yang menjadi faktor penyebab kegagalan panen bagi para petani di Kenya.
         <a href="https://meteo.go.ke/resources/downloads/extreme-weather-events-kenya-between-2011-and-2020" class="underline text-[#5C9998] hover:text-[#2C7877]">(Kenya Meteorogical Department, 2021)</a>
         Disamping itu, Kenya juga dterpa bencana kemarau yang mengakibatkan banyak masyarakat mengalami kerugian besar dalam bidang pertanian.
+        <a href="https://www.frontiersin.org/articles/10.3389/fclim.2021.766583/full" class="underline text-[#5C9998] hover:text-[#2C7877]">(Libere Nkurunziza et al., 2022)</a>
+
     </p>
 </div>
