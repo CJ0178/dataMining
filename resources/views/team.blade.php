@@ -47,7 +47,7 @@
         <img src="team.png" alt="" class="w-[40%]">
     </div>
     <a href="#dataset" class="button-awal">
-        <button class="bg-[#5C9998] hover:bg-white hover:border hover:border-2 hover:border-[#5C9998] hover:text-[#5C9998] text-4xl text-white font-bold py-4 px-8 rounded">
+        <button class="bg-[#5C9998] hover:bg-white hover:border hover:border-2 hover:border-[#5C9998] hover:text-[#5C9998] text-2xl text-white font-bold py-4 px-8 rounded">
             START NOW
           </button>
     </a>

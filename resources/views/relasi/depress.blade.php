@@ -29,12 +29,19 @@
     // create the chart and set the data
     chart2 = anychart.heatMap(data2);
 
-    var customColorScale2 = anychart.scales.linearColor();
-    customColorScale2.colors(["#C98A16", "#F8D9A0", "#96D0BD", "#5C9998", "#2C7877"]);
+    var colorScale = anychart.scales.ordinalColor();
+    colorScale.ranges([
+        // set color for all points with the heat parameter less than 1200000
+        {less: -0.063, color: "#2EA1A0"},
+        // set color for all points with the heat parameter more than 1200000 but less than 3000000
+        {from: -0.063, to: 0.089, color: "#F4C56C"},
+        // set color for all points with the heat parameter more than 3000000
+        {greater: 0.09, color: "#2EA1A0"}
+    ]);
 
 
     // set the color scale as the color scale of the chart
-    chart2.colorScale(customColorScale2);
+    chart2.colorScale(colorScale);
 
     // set the container id
     chart2.container("agedepres");

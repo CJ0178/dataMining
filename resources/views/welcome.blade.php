@@ -39,6 +39,10 @@
         <div class="pl-72 w-full " data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
             @include('team')
             @include('dataset')
+            <div class="my-48">
+                <hr class="border-[#5C9998] border-2">
+                <hr class="mt-1 border-[#5C9998] border-1">
+            </div>
             @include('heatmap')
             <div id="depress" class="my-48">
                 <hr class="border-[#5C9998] border-2">
@@ -48,7 +52,7 @@
             @include('relasi/agedepres')
             @include('relasi/edudepres')
             @include('relasi/marriagedepress')
-            <div id="depress" class="my-48">
+            <div class="my-48">
                 <hr class="border-[#5C9998] border-2">
                 <hr class="mt-1 border-[#5C9998] border-1">
             </div>

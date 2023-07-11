@@ -28,12 +28,19 @@
     // create the chart and set the data
     chart4 = anychart.heatMap(data4);
 
-    var customColorScale4 = anychart.scales.linearColor();
-    customColorScale4.colors(["#C98A16", "#F8D9A0", "#96D0BD", "#5C9998", "#2C7877"]);
+    var colorScale3 = anychart.scales.ordinalColor();
+    colorScale3.ranges([
+        // set color for all points with the heat parameter less than 1200000
+        {less: -0.065, color: "#F4C56C"},
+        // set color for all points with the heat parameter more than 1200000 but less than 3000000
+        {from: -0.065, to: -0.063, color: "#2EA1A0"},
+        // set color for all points with the heat parameter more than 3000000
+        {greater: -0.063, color: "#F4C56C"}
+    ]);
 
 
     // set the color scale as the color scale of the chart
-    chart4.colorScale(customColorScale4);
+    chart4.colorScale(colorScale3);
 
     // set the container id
     chart4.container("marriageheatmap");
@@ -77,7 +84,7 @@
 </style>
 
 <div id="marriagedepress" class="mt-32 pt-6">
-    <p class="text-3xl font-bold text-[#2C7877] mb-8 underline">
+    <p class="text-3xl font-bold text-[#2C7877] mb-2 underline">
         Marriage Status & Depressed
     </p>
 </div>
@@ -85,7 +92,7 @@
 <div id="marriageheatmap" class="">
 </div>
 
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mt-8">
     <div class="card">
         <div class="overflow-hidden mx-auto w-[90%]">
             <div class="py-4 bg-gray-50 text-lg font-bold text-center">Average Degree of Depression by Marital Status</div>
