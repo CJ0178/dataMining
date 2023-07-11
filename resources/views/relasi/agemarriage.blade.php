@@ -41,7 +41,7 @@
 
 <div id="agemarriage" class="pt-6">
     <p class="text-4xl font-bold text-center mb-8 text-[#2C7877]">
-        Age & Married
+        Age & Marriage Status
     </p>
 </div>
 
