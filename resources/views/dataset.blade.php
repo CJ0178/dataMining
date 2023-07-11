@@ -1,6 +1,6 @@
 <div id="dataset" class="text-center pt-16 pb-8">
     <p class="text-4xl font-bold">
-        Dataset Penduduk Kenya di Daerah Pedalaman pada Tahun 2015
+        Data Sample Penduduk Kenya di Daerah Pedalaman pada Tahun 2015
     </p>
     <div class="flex gap-3 justify-center items-center">
         <p class="text-4xl font-bold">
@@ -8,9 +8,6 @@
         </p>
         <img src="logoKaggle.png" class="w-28 mt-3" alt="">
     </div>
-    <p class="text-gray-400 mt-5">
-        Berikut adalah data sampel dari dataset yang digunakan
-    </p>
 </div>
 
 <div class="flex flex-col w-[98%]">

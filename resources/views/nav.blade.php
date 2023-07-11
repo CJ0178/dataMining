@@ -1,13 +1,13 @@
-<div class="navbar-nav fixed bg-[#2C7877] top-0 left-0 w-56 h-screen px-3 py-4 overflow-y-auto">
-    <div class="flex my-2 mb-4 gap-1">
-        <div class="w-2 h-2 bg-[#96D0BD] rounded-full"></div>
-        <div class="w-2 h-2 bg-[#F8D9A0] rounded-full"></div>
-        <div class="w-2 h-2 bg-[#E96832] rounded-full"></div>
+<div class="navbar-nav fixed bg-[#2C7877] top-0 left-0 w-64 h-screen px-3 py-4 overflow-y-auto">
+    <div class="flex my-2 mb-4 gap-1 ml-2">
+        <div class="w-3 h-3 bg-[#96D0BD] rounded-full"></div>
+        <div class="w-3 h-3 bg-[#F8D9A0] rounded-full"></div>
+        <div class="w-3 h-3 bg-[#E96832] rounded-full"></div>
     </div>
     <ul class="space-y-2 font-medium">
         <li>
-            <a href="#dataset" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#5C9998] group">
-                <svg class="w-7 h-7 text-white transition duration-75" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
+            <a href="#dataset" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#5C9998] group focus:bg-red-400">
+                <svg class="w-10 h-10 text-white transition duration-75" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
                     <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z"/>
                     <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z"/>
                 </svg>
@@ -16,42 +16,66 @@
         </li>
         <li>
             <a href="#container" class="flex items-center p-2 text-gray-900 rounded-lg  group hover:bg-[#5C9998]">
-                <svg fill="#ffffff" class="w-7 h-7" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg" stroke="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style> .cls-1 { fill: none; } </style> </defs> <title>heat-map--03</title> <path d="M27,3H5A2.0023,2.0023,0,0,0,3,5V27a2.0023,2.0023,0,0,0,2,2H27a2.0023,2.0023,0,0,0,2-2V5A2.0023,2.0023,0,0,0,27,3ZM19,9H13V5h6Zm0,2v4H13V11Zm-8,0v4H5V11Zm0,6v4H5V17Zm2,0h6v4H13Zm8-2V11h6l0,4ZM5,23h6v4H5Zm16,4V23h6v4Z"></path> <rect id="_Transparent_Rectangle_" data-name="<Transparent Rectangle>" class="cls-1" width="32" height="32"></rect> </g></svg>
+                <svg fill="#ffffff" class="w-10 h-10" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg" stroke="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style> .cls-1 { fill: none; } </style> </defs> <title>heat-map--03</title> <path d="M27,3H5A2.0023,2.0023,0,0,0,3,5V27a2.0023,2.0023,0,0,0,2,2H27a2.0023,2.0023,0,0,0,2-2V5A2.0023,2.0023,0,0,0,27,3ZM19,9H13V5h6Zm0,2v4H13V11Zm-8,0v4H5V11Zm0,6v4H5V17Zm2,0h6v4H13Zm8-2V11h6l0,4ZM5,23h6v4H5Zm16,4V23h6v4Z"></path> <rect id="_Transparent_Rectangle_" data-name="<Transparent Rectangle>" class="cls-1" width="32" height="32"></rect> </g></svg>
                 <span class="ml-3 text-white">Heatmap</span>
             </a>
         </li>
         <li>
-        <a href="#depress">
+        {{-- <a href="#depress"> --}}
             <button type="button" class="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group hover:bg-[#5C9998] " aria-controls="dropdown-example" data-collapse-toggle="dropdown">
-                <svg class="flex-shrink-0 w-7 h-7 text-white transition duration-75" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
-                    <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z"/>
+                <svg class="w-10 h-10" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M46.16 7.5C45.5036 6.36253 44.6296 5.36548 43.5879 4.56579C42.5462 3.7661 41.3571 3.17944 40.0887 2.83929C38.8202 2.49915 37.4972 2.41219 36.1951 2.58338C34.893 2.75456 33.6374 3.18055 32.5 3.837C31.9864 4.13732 31.5005 4.48268 31.048 4.869C28.8707 3.93079 26.5171 3.47199 24.1468 3.52376C21.7766 3.57552 19.4452 4.13663 17.311 5.169C16.1916 4.12349 14.8471 3.34909 13.381 2.90552C11.915 2.46195 10.3667 2.36108 8.85545 2.61069C7.34424 2.8603 5.91058 3.45372 4.66504 4.34516C3.4195 5.23661 2.39538 6.40226 1.67169 7.75219C0.948002 9.10212 0.544078 10.6002 0.491081 12.131C0.438084 13.6618 0.73743 15.1842 1.36603 16.581C1.99463 17.9777 2.93567 19.2114 4.11658 20.1869C5.29748 21.1623 6.68668 21.8535 8.177 22.207C8.44635 24.3383 9.13891 26.3942 10.214 28.254C11.3597 30.2344 12.9093 31.9516 14.762 33.294C14.4321 34.757 14.4358 36.2756 14.7727 37.737C15.1097 39.1984 15.7713 40.5652 16.7086 41.7361C17.6458 42.9069 18.8346 43.8518 20.1867 44.5006C21.5389 45.1494 23.0198 45.4855 24.5195 45.4839C26.0193 45.4824 27.4995 45.1433 28.8503 44.4917C30.2011 43.8401 31.3879 42.8928 32.3228 41.72C33.2576 40.5473 33.9164 39.1791 34.2504 37.717C34.5843 36.2549 34.5849 34.7364 34.252 33.274C36.0832 31.9413 37.6166 30.2415 38.7543 28.2832C39.892 26.3249 40.6092 24.1509 40.86 21.9C42.2405 21.4105 43.4962 20.6231 44.538 19.5936C45.5798 18.5641 46.3822 17.3178 46.8881 15.9433C47.394 14.5688 47.591 13.0998 47.4652 11.6405C47.3393 10.1813 46.8937 8.76762 46.16 7.5V7.5ZM2.772 10.427C3.08104 9.26528 3.64792 8.18815 4.4305 7.27564C5.21308 6.36314 6.19124 5.63873 7.29229 5.15626C8.39335 4.67378 9.58897 4.44564 10.7903 4.4888C11.9917 4.53195 13.1678 4.84529 14.2314 5.40553C15.295 5.96577 16.2187 6.7585 16.9338 7.7248C17.6489 8.69111 18.137 9.80614 18.3619 10.987C18.5868 12.1679 18.5426 13.3843 18.2328 14.5458C17.9229 15.7073 17.3552 16.7841 16.572 17.696C16.2345 16.8086 15.7072 16.0057 15.027 15.3435C14.3468 14.6812 13.5301 14.1756 12.634 13.862C13.367 13.3991 13.9297 12.7105 14.2375 11.9C14.5452 11.0896 14.5813 10.201 14.3404 9.36825C14.0994 8.53548 13.5944 7.80353 12.9014 7.28263C12.2084 6.76172 11.3649 6.48006 10.498 6.48006C9.63106 6.48006 8.78759 6.76172 8.09459 7.28263C7.40159 7.80353 6.89659 8.53548 6.65562 9.36825C6.41465 10.201 6.45076 11.0896 6.75852 11.9C7.06628 12.7105 7.62901 13.3991 8.362 13.862C7.4659 14.1763 6.64932 14.6826 5.96942 15.3456C5.28953 16.0086 4.76277 16.8121 4.426 17.7C3.57684 16.716 2.98201 15.5388 2.69365 14.2715C2.40528 13.0042 2.43218 11.6855 2.772 10.431V10.427ZM6.1 19.17C6.28255 18.1357 6.82365 17.1987 7.62829 16.5236C8.43293 15.8486 9.44968 15.4785 10.5 15.4785C11.5503 15.4785 12.5671 15.8486 13.3717 16.5236C14.1763 17.1987 14.7175 18.1357 14.9 19.17C14.768 19.256 14.64 19.346 14.5 19.426C13.2139 20.1667 11.7471 20.535 10.2637 20.4898C8.78023 20.4446 7.3386 19.9876 6.1 19.17V19.17ZM10.5 12.492C10.1044 12.492 9.71776 12.3747 9.38886 12.1549C9.05996 11.9352 8.80361 11.6228 8.65224 11.2574C8.50086 10.8919 8.46126 10.4898 8.53843 10.1018C8.6156 9.71386 8.80608 9.35749 9.08578 9.07779C9.36549 8.79808 9.72186 8.6076 10.1098 8.53043C10.4978 8.45326 10.8999 8.49287 11.2654 8.64424C11.6308 8.79562 11.9432 9.05196 12.1629 9.38086C12.3827 9.70976 12.5 10.0964 12.5 10.492C12.5 11.0224 12.2893 11.5311 11.9142 11.9062C11.5391 12.2813 11.0304 12.492 10.5 12.492ZM20.1 42.17C20.2825 41.1357 20.8236 40.1987 21.6283 39.5236C22.4329 38.8486 23.4497 38.4785 24.5 38.4785C25.5503 38.4785 26.5671 38.8486 27.3717 39.5236C28.1763 40.1987 28.7175 41.1357 28.9 42.17C28.768 42.256 28.64 42.346 28.5 42.426C27.2139 43.1667 25.7471 43.535 24.2637 43.4898C22.7802 43.4446 21.3386 42.9876 20.1 42.17ZM24.5 35.492C24.1044 35.492 23.7178 35.3747 23.3889 35.1549C23.06 34.9352 22.8036 34.6228 22.6522 34.2574C22.5009 33.8919 22.4613 33.4898 22.5384 33.1018C22.6156 32.7139 22.8061 32.3575 23.0858 32.0778C23.3655 31.7981 23.7219 31.6076 24.1098 31.5304C24.4978 31.4533 24.8999 31.4929 25.2654 31.6442C25.6308 31.7956 25.9432 32.052 26.1629 32.3809C26.3827 32.7098 26.5 33.0964 26.5 33.492C26.5 34.0224 26.2893 34.5311 25.9142 34.9062C25.5391 35.2813 25.0304 35.492 24.5 35.492ZM32.228 37.568C31.9187 38.7229 31.3534 39.7933 30.574 40.7C30.2365 39.8126 29.7092 39.0097 29.029 38.3475C28.3488 37.6852 27.5321 37.1796 26.636 36.866C27.369 36.4031 27.9317 35.7145 28.2395 34.904C28.5472 34.0936 28.5833 33.205 28.3424 32.3723C28.1014 31.5395 27.5964 30.8075 26.9034 30.2866C26.2104 29.7657 25.3669 29.4841 24.5 29.4841C23.6331 29.4841 22.7896 29.7657 22.0966 30.2866C21.4036 30.8075 20.8986 31.5395 20.6576 32.3723C20.4167 33.205 20.4528 34.0936 20.7605 34.904C21.0683 35.7145 21.631 36.4031 22.364 36.866C21.4679 37.1796 20.6512 37.6852 19.971 38.3475C19.2908 39.0097 18.7635 39.8126 18.426 40.7C18.1053 40.3269 17.8195 39.9252 17.572 39.5C16.9143 38.3607 16.5477 37.0767 16.5046 35.7619C16.4616 34.447 16.7435 33.1418 17.3254 31.962C17.9073 30.7821 18.7711 29.7639 19.8404 28.9976C20.9098 28.2313 22.1516 27.7405 23.4559 27.5688C24.7602 27.397 26.0867 27.5496 27.318 28.0129C28.5492 28.4762 29.6472 29.2361 30.5147 30.2251C31.3822 31.2141 31.9924 32.4018 32.2912 33.683C32.5901 34.9641 32.5684 36.2992 32.228 37.57V37.568ZM33.568 31.291C33.443 31.023 33.31 30.757 33.16 30.498C32.2467 28.9098 30.914 27.6035 29.3079 26.722C27.7018 25.8406 25.8841 25.4181 24.0539 25.5007C22.2237 25.5833 20.4515 26.1678 18.9313 27.1904C17.4111 28.2129 16.2015 29.634 15.435 31.298C14.0285 30.1786 12.8447 28.8052 11.945 27.249C11.0908 25.7732 10.5102 24.1552 10.231 22.473C10.331 22.473 10.421 22.492 10.517 22.492C12.2709 22.489 13.9932 22.0247 15.511 21.1458C17.0287 20.2669 18.2887 19.0042 19.1643 17.4845C20.04 15.9649 20.5005 14.2416 20.4998 12.4877C20.499 10.7338 20.037 9.01093 19.16 7.492C19.012 7.236 18.851 6.992 18.683 6.752C22.1274 5.24224 26.0234 5.12859 29.55 6.435C28.3543 8.0038 27.6493 9.89115 27.5237 11.8596C27.398 13.8281 27.8573 15.7898 28.8438 17.4979C29.8303 19.206 31.2999 20.5842 33.0677 21.4591C34.8355 22.334 36.8226 22.6666 38.779 22.415C38.2025 25.9174 36.3454 29.0807 33.568 31.291V31.291ZM33.1 19.17C33.2825 18.1357 33.8236 17.1987 34.6283 16.5236C35.4329 15.8486 36.4497 15.4785 37.5 15.4785C38.5503 15.4785 39.5671 15.8486 40.3717 16.5236C41.1764 17.1987 41.7175 18.1357 41.9 19.17C41.768 19.256 41.64 19.346 41.5 19.426C40.2139 20.1667 38.7471 20.535 37.2637 20.4898C35.7802 20.4446 34.3386 19.9876 33.1 19.17ZM37.5 12.492C37.1044 12.492 36.7178 12.3747 36.3889 12.1549C36.06 11.9352 35.8036 11.6228 35.6522 11.2574C35.5009 10.8919 35.4613 10.4898 35.5384 10.1018C35.6156 9.71386 35.8061 9.35749 36.0858 9.07779C36.3655 8.79808 36.7219 8.6076 37.1098 8.53043C37.4978 8.45326 37.8999 8.49287 38.2654 8.64424C38.6308 8.79562 38.9432 9.05196 39.1629 9.38086C39.3827 9.70976 39.5 10.0964 39.5 10.492C39.5 11.0224 39.2893 11.5311 38.9142 11.9062C38.5391 12.2813 38.0304 12.492 37.5 12.492ZM45.228 14.568C44.9187 15.7229 44.3534 16.7933 43.574 17.7C43.2365 16.8126 42.7092 16.0097 42.029 15.3475C41.3488 14.6852 40.5321 14.1796 39.636 13.866C40.369 13.4031 40.9317 12.7145 41.2395 11.904C41.5472 11.0936 41.5833 10.205 41.3424 9.37225C41.1014 8.53948 40.5964 7.80753 39.9034 7.28662C39.2104 6.76572 38.3669 6.48407 37.5 6.48407C36.6331 6.48407 35.7896 6.76572 35.0966 7.28662C34.4036 7.80753 33.8986 8.53948 33.6576 9.37225C33.4167 10.205 33.4528 11.0936 33.7605 11.904C34.0683 12.7145 34.631 13.4031 35.364 13.866C34.4679 14.1796 33.6512 14.6852 32.971 15.3475C32.2908 16.0097 31.7635 16.8126 31.426 17.7C30.5289 16.6532 29.9176 15.3924 29.6513 14.0399C29.3849 12.6873 29.4726 11.2888 29.9058 9.98012C30.3391 8.67141 31.1031 7.49686 32.1239 6.57037C33.1447 5.64388 34.3876 4.99689 35.7321 4.69215C37.0765 4.38741 38.4769 4.43525 39.7974 4.83105C41.1179 5.22684 42.3137 5.95715 43.2689 6.95116C44.2241 7.94516 44.9062 9.16913 45.2491 10.5044C45.592 11.8396 45.584 13.2408 45.226 14.572L45.228 14.568Z" fill="#ffffff" id="id_101"></path>
                 </svg>
                 <span class="flex-1 ml-3 text-left whitespace-nowrap text-white ">Relasi</span>
                 <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                 </svg>
-        </button>
-        </a>
-        <ul id="dropdown" class="hidden py-2">
-                <li>
-                    <a href="#age" class="nav-link flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Age - Depressed</a>
-                </li>
-                <li>
-                    <a href="#navedudepres" class="nav-link flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Education Level - Depressed</a>
-                </li>
-                <li>
-                    <a href="#marriagedepress" class="nav-link flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Marriage Status - Depressed</a>
-                </li>
-                <li>
-                    <a href="#ageedu" class="nav-link flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Age - Education Level</a>
-                </li>
-                <li>
-                    <a href="#agemarriage" class="nav-link flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Age - Marriage Status</a>
-                </li>
-                <li>
-                    <a href="#laborincoming" class="nav-link flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Labor Primary - Incoming Salary</a>
-                </li>
-        </ul>
+            </button>
+            {{-- </a> --}}
+            <ul id="dropdown" class="hidden py-2 list-disc">
+                <a href="#depress" class="nav-link py-2 flex items-center w-full text-white transition duration-75 rounded-lg pl-11 group hover:bg-[#5C9998]">
+                    <button type="button" class="flex items-center w-full text-base text-white transition duration-75" aria-controls="dropdown-example" data-collapse-toggle="dropdownDepress">
+                        <li class="pr-[22px]">
+                            Attribute Depressed
+                        </li>
+                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg>
+                    </button>
+                </a>
+                <ul id="dropdownDepress" class="hidden list-disc ml-6">
+                    <a href="#age" class="nav-link py-2 flex items-center w-full text-white transition duration-75 rounded-lg pl-11 group hover:bg-[#5C9998]">
+                        <li>
+                            Age-Depressed
+                        </li>
+                    </a>
+                    <a href="#navedudepres" class="nav-link py-2 flex items-center w-full text-white transition duration-75 rounded-lg pl-11 group hover:bg-[#5C9998]">
+                        <li>
+                            Education Level-Depressed
+                        </li>
+                    </a>
+                    <a href="#marriagedepress" class="nav-link py-2 flex items-center w-full text-white transition duration-75 rounded-lg pl-11 group hover:bg-[#5C9998]">
+                        <li>
+                            Marriage Status-Depressed
+                        </li>
+                    </a>
+                </ul>
+                <a href="#ageedu" class="nav-link py-2 flex items-center w-full text-white transition duration-75 rounded-lg pl-11 group hover:bg-[#5C9998]">
+                    <li>
+                        Age-Education Level
+                    </li>
+                </a>
+                <a href="#agemarriage" class="nav-link py-2 flex items-center w-full text-white transition duration-75 rounded-lg pl-11 group hover:bg-[#5C9998]">
+                    <li>
+                        Age-Marriage Status
+                    </li>
+                </a>
+                <a href="#laborincoming" class="nav-link py-2 flex items-center w-full text-white transition duration-75 rounded-lg pl-11 group hover:bg-[#5C9998]">
+                    <li>
+                        Labor Primary-Income Source
+                    </li>
+                </a>
+            </ul>
         </li>
     </ul>
 </div>

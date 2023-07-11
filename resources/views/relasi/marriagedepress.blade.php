@@ -57,7 +57,7 @@
 
 <div id="marriagedepress" class="mt-32 pt-6">
     <p class="text-3xl font-bold text-[#2C7877] mb-8 underline">
-        Married & Depressed
+        Marriage Status & Depressed
     </p>
 </div>
 
