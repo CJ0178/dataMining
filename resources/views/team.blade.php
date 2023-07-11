@@ -24,19 +24,30 @@
 </style>
 
 <div class="header h-screen flex flex-col justify-center">
-    <div class="container inline-flex items-center justify-center">
-        <div>
-            <h1 class="text-5xl text-center mr-5 font-bold">Depression In Kenya 2015</h1>
-            <p class="text-lg mt-5">Presented By: <br>
-                - Cecilia Audrey Herli <br>
-                - Charlene Jovannie <br>
-                - Michelle Angela
-            </p>
+    <div class="container inline-flex items-center gap-12 justify-center">
+        <div class="">
+            <h1 class="text-5xl font-bold">Depression in Kenya 2015</h1>
+            <p class="text-lg mt-16">Presented By:</p>
+
+            <div class="flex gap-8 mt-4">
+                <div class="text-center">
+                    <img src="foto.JPG" class="w-48 rounded-full" alt="">
+                    <p class="font-semibold text-lg text-[#5C9998] mt-4">Cecilia Audrey Herli <br> 2502040461</p>
+                </div>
+                <div class="text-center">
+                    <img src="foto.JPG" class="w-48 rounded-full" alt="">
+                    <p class="font-semibold text-lg text-[#5C9998] mt-4">Charlene Jovannie <br> 2502040480</p>
+                </div>
+                <div class="text-center">
+                    <img src="foto.JPG" class="w-48 rounded-full" alt="">
+                    <p class="font-semibold text-lg text-[#5C9998] mt-4">Michelle Angela <br> 2502041275</p>
+                </div>
+            </div>
         </div>
-        <img src="image-removebg-preview (6).png" alt="" class="tester">
+        <img src="team.png" alt="" class="w-[40%]">
     </div>
     <a href="#dataset" class="button-awal">
-        <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+        <button class="bg-[#5C9998] hover:bg-white hover:border hover:border-2 hover:border-[#5C9998] hover:text-[#5C9998] text-4xl text-white font-bold py-4 px-8 rounded">
             START NOW
           </button>
     </a>
