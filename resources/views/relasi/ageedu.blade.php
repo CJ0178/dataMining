@@ -26,6 +26,22 @@
     // initiate drawing the chart
     chart4.draw();
 
+    chart4.labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(12) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart4.xAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart4.yAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+
     });
 </script>
 

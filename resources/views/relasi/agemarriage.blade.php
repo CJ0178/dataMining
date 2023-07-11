@@ -26,6 +26,22 @@
     // initiate drawing the chart
     chart5.draw();
 
+    chart5.labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(12) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart5.xAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart5.yAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+
     });
 </script>
 

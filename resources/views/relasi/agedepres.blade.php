@@ -51,20 +51,42 @@
     // initiate drawing the chart
     chart3.draw();
 
+    // Get the x-axis object
+    var xAxis3 = chart3.xAxis();
+
+    // Configure the rotation of the x-axis labels
+    xAxis3.labels().rotation(330);
+
+    chart3.labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(12) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart3.xAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart3.yAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+
     });
 </script>
 
 <style>
     #agedepres1 {
     width: 100%;
-    height: 0.8%;
+    height: 1.3%;
     margin: 0;
     padding: 0;
     }
 </style>
 
 
-<div id="age" class="pt-6">
+<div id="age" class="pt-2">
     <p class="text-3xl font-bold text-[#2C7877] mb-8 underline">
         Age & Depressed
     </p>
