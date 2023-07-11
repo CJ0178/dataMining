@@ -95,7 +95,7 @@
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mt-8">
     <div class="card">
         <div class="overflow-hidden mx-auto w-[90%]">
-            <div class="py-4 bg-gray-50 text-lg font-bold text-center">Average Degree of Depression by Marital Status</div>
+            <div class="py-4 bg-gray-50 text-2xl font-bold text-center">Average Degree of Depression by Marital Status</div>
         </div>
         <div class="card-body px-80">
             <canvas id="chartjs_bar1"></canvas>
@@ -103,12 +103,12 @@
     </div>
 </div>
 
-<div class=" mt-6 text-xl px-24">
+<div class=" mt-6 text-2xl px-24">
     <p class="text-center">
         Status <span class="font-bold text-[#E96832]">"Non-Married"</span> lebih berpotensi mengalami depresi dibandingkan dengan status "Married". <br>
         Status "Non-Married" meliputi individu yang belum menikah sama sekali dan yang pernah menikah dan kemudian bercerai.
     </p>
-    <p class="mt-8">
+    <p class="mt-8 text-2xl">
         Ada sebuah studi menunjukkan bahwa individu yang bercerai/janda lebih mungkin untuk mengalami depresi, dibandingkan dengan mereka yang menikah/belum menikah.
         <a href="https://www.sciencedirect.com/science/article/pii/S0165032722001288" class="underline text-[#5C9998] hover:text-[#2C7877]">(Liang Pan et al., 2021)</a>
     </p>

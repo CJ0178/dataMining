@@ -69,14 +69,14 @@
     </div>
 </div>
 
-<div class="mt-12 text-xl px-24 mb-32 text-justify">
-    <p class="text-center">
+<div class="mt-12 text-2xl px-24 mb-32 text-justify">
+    <p class="text-center text-2xl">
         <span class="font-bold text-[#E96832]">Rentang umur 15-30</span> memiliki rata-rata status perkawinan yang <span class="font-bold text-[#E96832]">tinggi</span> dibandingkan dengan rentang umur yang lebih tua.
     </p>
-    <p class="mt-12">
+    <p class="mt-12 text-2xl">
         Ada beberapa faktor yang menyebabkan banyaknya pernikahan pada usia muda di Kenya: <a class="underline text-[#5C9998] hover:text-[#2C7877]" href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/">(Girls Not Brides)</a>
     </p>
-    <ul class="list-disc pl-12">
+    <ul class="list-disc text-2xl pl-12">
         <li>Adanya <span class="font-bold">ketidaksetaraan gender</span> (perempuan dianggap lebih rendah daripada laki-laki).</li>
         <li>Pernikahan muda menjadi <span class="font-bold">solusi</span> untuk mengatasi kemiskinan.</li>
         <li><span class="font-bold">Menikahkan</span> anak perempuan yang dropout dari sekolah</li>
