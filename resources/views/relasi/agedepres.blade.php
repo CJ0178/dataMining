@@ -50,7 +50,7 @@
 <style>
     #agedepres1 {
     width: 100%;
-    height: 1%;
+    height: 0.8%;
     margin: 0;
     padding: 0;
     }
@@ -66,7 +66,7 @@
 <div id="agedepres1" class="">
 </div>
 
-<div class="w-[75%] mx-auto mt-12">
+<div class="w-[75%] mx-auto mt-10">
     <div class="card">
         <h5 class="card-header font-bold text-lg text-center">Average Depressed by Age Group</h5>
         <div class="card-body px-32">
@@ -75,7 +75,7 @@
     </div>
 </div>
 
-<div class=" mt-12 text-lg px-24">
+<div class="mt-6 text-lg px-24">
     <p class="text-center">
         Rentang umur yang paling berpotensi menderita depresi adalah <span class="font-bold">kaum lansia</span>  (80-90).
     </p>
