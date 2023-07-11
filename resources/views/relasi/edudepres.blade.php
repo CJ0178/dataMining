@@ -87,22 +87,22 @@
 </div>
 
 <!-- 1 -->
-<div class="overflow-hidden mt-4 mx-auto w-[70%]" id="edudepres">
+<div class=" mt-4 mx-auto w-[70%]" id="edudepres">
     <div class="py-3 px-5 text-xl font-bold text-center">Average Degree of Depression by Education Level Groups</div>
-    <canvas class="m-10 " id="chartLine"></canvas>
+    <canvas class="m-10" id="chartLine"></canvas>
 </div>
 
-<div class=" mt-2 text-md px-24">
+<div class=" mt-2 text-xl px-24">
 
     <ul class="list-disc text-gray-500">
         <li>Education level 1-8 (primary education) Kenya Ceriticate of Primary Education (KCPE).</li>
         <li>Education level 9-12 (secondary education) Kenya Certificate of Secondary Education (KCSE).</li>
         <li>Education level 12-19 (university education) Bachelor (undergraduate).</li>
     </ul>
-    <a href="https://www.knqa.go.ke/wp-content/uploads/2018/10/education-system-kenya.pdf" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a>
+    <a href="https://www.knqa.go.ke/wp-content/uploads/2018/10/education-system-kenya.pdf" class="underline text-[#5C9998] hover:text-[#2C7877]">(Education system Kenya, 2015)</a>
 
-    <p class="text-center text-lg mt-4">
-        Berdasarkan grafik di atas, individu dengan <span class="font-bold">education level yang rendah</span> lebih berpotensi untuk menderita depresi. <br>
+    <p class="text-center text-xl mt-12">
+        Individu dengan <span class="font-bold text-[#E96832]">education level yang rendah</span> lebih berpotensi untuk menderita depresi. <br>
     </p>
 </div>
 
@@ -120,8 +120,8 @@
         datasets: [
             {
                 label: "Average",
-                backgroundColor: "#035afc",
-                borderColor: "#035afc",
+                backgroundColor: "#5C9998",
+                borderColor: "#5C9998",
                 data: [,0.19951338, 0.13990268, 0.14736842,],
             },
         ],
@@ -138,7 +138,7 @@
                     formatter: (value) => value,
                     color: "#000000",
                     font: {
-                        size: 12,
+                        size: 16,
                     },
                 },
                 legend: {
@@ -176,6 +176,7 @@
                         font: {
                             size: 16,
                         },
+                        padding: 20
                     },
                 },
             },

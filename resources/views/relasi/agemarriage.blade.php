@@ -12,7 +12,7 @@
     chart5 = anychart.heatMap(data5);
 
     var customColorScale5 = anychart.scales.linearColor();
-    customColorScale5.colors(["#78BDBC", "#F4C56C"]);
+    customColorScale5.colors(["#F4C56C", "#C98A16"]);
 
 
     // set the color scale as the color scale of the chart
@@ -55,7 +55,7 @@
     }
 </style>
 
-<div id="agemarriage" class="pt-6">
+<div id="agemarriage" class="pt-6 pb-8">
     <p class="text-4xl font-bold text-center mb-8 text-[#2C7877]">
         Age & Marriage Status
     </p>
@@ -69,20 +69,20 @@
     </div>
 </div>
 
-<div class="mt-12 text-lg px-24 mb-32 text-justify">
+<div class="mt-12 text-xl px-24 mb-32 text-justify">
     <p class="text-center">
-        <span class="font-bold">Rentang umur 15-30</span> memiliki rata-rata status perkawinan yang <span class="font-bold">tinggi</span> dibandingkan dengan rentang umur yang lebih tua.
+        <span class="font-bold text-[#E96832]">Rentang umur 15-30</span> memiliki rata-rata status perkawinan yang <span class="font-bold text-[#E96832]">tinggi</span> dibandingkan dengan rentang umur yang lebih tua.
     </p>
     <p class="mt-12">
-        Ada beberapa faktor yang menyebabkan banyaknya pernikahan pada usia muda di Kenya <a class="underline text-[#5C9998] hover:text-[#2C7877]" href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/">(Girls Not Brides)</a>
+        Ada beberapa faktor yang menyebabkan banyaknya pernikahan pada usia muda di Kenya: <a class="underline text-[#5C9998] hover:text-[#2C7877]" href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/">(Girls Not Brides)</a>
     </p>
     <ul class="list-disc pl-12">
-        <li>Adanya ketidaksetaraan gender (perempuan dianggap lebih rendah daripada laki-laki).</li>
-        <li>Pernikahan muda menjadi solusi untuk mengatasi kemiskinan.</li>
-        <li>Menikahkan anak perempuan yang dropout dari sekolah</li>
-        <li>Tradisi tidak etis dimana menikahkan paksa anak perempuan dengan kerabat di usia muda (8-12 tahun)</li>
-        <li>Hukum yang tidak cukup kuat dalam mengatur pernikahan anak</li>
-        <li>Pernikahan muda sudah menjadi hal yang normal bagi masyarakat sosial di Kenya</li>
+        <li>Adanya <span class="font-bold">ketidaksetaraan gender</span> (perempuan dianggap lebih rendah daripada laki-laki).</li>
+        <li>Pernikahan muda menjadi <span class="font-bold">solusi</span> untuk mengatasi kemiskinan.</li>
+        <li><span class="font-bold">Menikahkan</span> anak perempuan yang dropout dari sekolah</li>
+        <li>Tradisi <span class="font-bold">tidak etis</span> dimana menikahkan paksa anak perempuan dengan kerabat di usia muda (8-12 tahun)</li>
+        <li>Hukum yang <span class="font-bold">tidak cukup kuat</span> dalam mengatur pernikahan anak</li>
+        <li>Pernikahan muda sudah menjadi hal yang <span class="font-bold">normal</span> bagi masyarakat sosial di Kenya</li>
     </ul>
     {{-- <a href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a> --}}
 </div>
@@ -101,8 +101,8 @@
         datasets: [
             {
                 // label: "Non-Married",
-                backgroundColor: "#e8970c",
-                borderColor: "#e8970c",
+                backgroundColor: "#5C9998",
+                borderColor: "#5C9998",
                 data: [0.936, 0.920, 0.892, 0.778, 0.672, 0.632, 0.636, 0.610, 0.500, 0.525, 0.421, 0.286, 0.286, 0.000, 0.000],
             },
             // {
