@@ -571,7 +571,7 @@
 
 <div class="flex flex-col items-center justify-around">
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Survey_id</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Survey_id</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">Unique identifier assigned to each survey conducted to collect data from individuals.
             <br> <span class="font-bold text-[#2C7877] text-[#2C7877]">(Integer)</span>
@@ -582,10 +582,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Ville_id</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Ville_id</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-20 py-4 h-auto text-white">Sex</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-20 py-4 h-auto text-[#2C7877]">Sex</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">Individual's biological classification as male or female
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
@@ -596,10 +596,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-[60px] py-4 h-auto text-white">Age</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-[60px] py-4 h-auto text-[#2C7877]">Age</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Marriage_status</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Marriage_status</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">Individual's legal or social status regarding their marriage or partnership.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
@@ -610,10 +610,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Number_children</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Number_children</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Education_level</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Education_level</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">The number of years of formal education an individual has completed.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
@@ -624,10 +624,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-white">Total_members</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-[#2C7877]">Total_members</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Gained_asset</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Gained_asset</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">The accumulation of assets or wealth acquired by an individual over a specific period.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
@@ -638,10 +638,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-[52px] py-4 h-auto text-white">Durable_asset</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-[52px] py-4 h-auto text-[#2C7877]">Durable_asset</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-white">Save_asset</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-[#2C7877]">Save_asset</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">The portion of income or resources set aside or saved for future use by an individual.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
@@ -652,10 +652,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Living_expenses</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Living_expenses</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Other_expenses</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Other_expenses</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">Additional or miscellaneous expenses incurred by an individual beyond <br> basic living expenses.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
@@ -666,10 +666,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Incoming_salary</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Incoming_salary</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-[52px] py-4 h-auto text-white">Incoming_own_farm</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-[52px] py-4 h-auto text-[#2C7877]">Incoming_own_farm</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">Income generated from agricultural or farming activities that an <br> individual owns and operates.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
@@ -680,10 +680,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Incoming_business</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Incoming_business</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Incoming_no_business</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Incoming_no_business</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">Income derived from any other sources of income, such as employment, <br> investments, or passive income streams.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
@@ -694,10 +694,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Incoming_agricultural</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Incoming_agricultural</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-16 py-4 h-auto text-white">Farm_expenses</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-16 py-4 h-auto text-[#2C7877]">Farm_expenses</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">The costs incurred by farmers or agricultural businesses in the process of <br> operating and maintaining their farming operations.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
@@ -708,10 +708,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Labor_primary</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Labor_primary</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">Lasting_investment</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Lasting_investment</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">Long-term investments made by an individual or household with the intention <br> of preserving or growing their wealth over an extended period.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
@@ -722,10 +722,10 @@
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-white">No_lasting_investmen</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">No_lasting_investmen</div>
     </div>
     <div class="flex items-center pl-64 w-full">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-white">Depressed</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-[#2C7877]">Depressed</div>
         <hr class="border-[#96D0BD] border-2 w-12">
         <p class="pl-6 text-xl">Indicates whether an individual or entity is currently experiencing depression or not.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
