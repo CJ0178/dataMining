@@ -12,6 +12,9 @@
 </head>
 <body>
     <style>
+        body::-webkit-scrollbar{
+            display: none;
+        }
         #btn-back-to-top {
             position: fixed;
             /* display: none; */
