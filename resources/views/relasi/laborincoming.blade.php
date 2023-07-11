@@ -26,6 +26,27 @@
     // initiate drawing the chart
     chart6.draw();
 
+    chart6.labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(12) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart6.xAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart6.yAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    // Get the x-axis object
+    // var xAxis6 = chart6.xAxis();
+
+    // // Configure the rotation of the x-axis labels
+    // xAxis6.labels().rotation(330);
+
     });
 </script>
 
