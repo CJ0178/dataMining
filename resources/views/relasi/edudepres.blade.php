@@ -73,9 +73,9 @@
 <div class=" mt-2 text-md px-24">
 
     <ul class="list-disc text-gray-500">
-        <li>Education level 1-8 (primary education) merupakan individu yang telah menerima Kenya Ceriticate of Primary Education (KCPE).</li>
-        <li>Education level 9-12 (secondary education) merupakan individu yang telah menerima Kenya Certificate of Secondary Education (KCSE).</li>
-        <li>Education level 12-19 (university education) merupakan individu yang dengan gelar Bachelor (undergraduate).</li>
+        <li>Education level 1-8 (primary education) Kenya Ceriticate of Primary Education (KCPE).</li>
+        <li>Education level 9-12 (secondary education) Kenya Certificate of Secondary Education (KCSE).</li>
+        <li>Education level 12-19 (university education) Bachelor (undergraduate).</li>
     </ul>
     <a href="https://www.knqa.go.ke/wp-content/uploads/2018/10/education-system-kenya.pdf" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a>
 

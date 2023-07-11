@@ -77,7 +77,7 @@
 
 <div class=" mt-12 text-lg px-24">
     <p class="text-center">
-        Berdasarkan grafik batang di atas, status <span class="font-bold">"Non-Married"</span> lebih berpotensi mengalami depresi dibandingkan dengan status "Married". <br>
+        Status <span class="font-bold">"Non-Married"</span> lebih berpotensi mengalami depresi dibandingkan dengan status "Married". <br>
         Status "Non-Married" meliputi individu yang belum menikah sama sekali dan yang pernah menikah dan kemudian bercerai.
     </p>
     <p class="mt-8">

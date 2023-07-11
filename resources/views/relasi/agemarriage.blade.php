@@ -55,20 +55,20 @@
 
 <div class="mt-12 text-lg px-24 mb-32 text-justify">
     <p class="text-center">
-        Berdasarkan grafik garis di atas, dapat dilihat <span class="font-bold">rentang umur 15-30</span> memiliki rata-rata status perkawinan yang <span class="font-bold">tinggi</span> dibandingkan dengan rentang umur yang lebih tua.
+        <span class="font-bold">Rentang umur 15-30</span> memiliki rata-rata status perkawinan yang <span class="font-bold">tinggi</span> dibandingkan dengan rentang umur yang lebih tua.
     </p>
     <p class="mt-12">
-        Ada beberapa faktor yang menyebabkan banyaknya pernikahan pada usia muda di Kenya.(John Kabutha Mugo et al., 2020)
+        Ada beberapa faktor yang menyebabkan banyaknya pernikahan pada usia muda di Kenya <a class="underline text-[#5C9998] hover:text-[#2C7877]" href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/">(Girls Not Brides)</a>
     </p>
     <ul class="list-disc pl-12">
-        <li>Adanya ketidaksetaraan gender dimana perempuan dianggap lebih rendah daripada laki-laki.</li>
+        <li>Adanya ketidaksetaraan gender (perempuan dianggap lebih rendah daripada laki-laki).</li>
         <li>Pernikahan muda menjadi solusi untuk mengatasi kemiskinan.</li>
         <li>Menikahkan anak perempuan yang dropout dari sekolah</li>
         <li>Tradisi tidak etis dimana menikahkan paksa anak perempuan dengan kerabat di usia muda (8-12 tahun)</li>
         <li>Hukum yang tidak cukup kuat dalam mengatur pernikahan anak</li>
         <li>Pernikahan muda sudah menjadi hal yang normal bagi masyarakat sosial di Kenya</li>
     </ul>
-    <a href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a>
+    {{-- <a href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a> --}}
 </div>
 
 <!-- Component -->
