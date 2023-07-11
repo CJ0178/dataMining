@@ -23,15 +23,7 @@
     }
 </style>
 
-<div>
-    Introducing our team!!
-
-    - Cecilia Audrey Herli
-    - Charlene Jovannie
-    - Michelle Angela
-</div>
-
-<div class="header">
+<div class="header  my-64">
     <div class="container inline-flex items-center justify-center">
         <div>
             <h1 class="text-5xl text-center mr-5 font-bold">Depression In Kenya 2015</h1>

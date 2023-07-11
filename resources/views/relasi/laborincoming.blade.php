@@ -196,7 +196,7 @@
 <div class=" mt-12 text-lg px-24 mb-32 text-justify">
     <p class="text-center">
         Berdasarkan pie chart Labor Primary 1, <span class="font-bold">incoming salary</span> menjadi sumber mata pencaharian individu yang merupakan tulang punggung. <br>
-        Sedangkan berdasarkan pie chart Labor Primary 0, <span class="font-bold">incoming own farm</span> merupakan sumber mata pencaharian yang paling tidak dijadikan sumber penghasilan utama.
+        Sedangkan berdasarkan pie chart Labor Primary 0, <span class="font-bold">incoming own farm</span> bukan merupakan sumber penghasilan utama.
     </p>
     <p class="mt-24">
         Di tahun 2015, banyak terjadi bencana banjir dan perubahan iklim yang menjadi faktor penyebab kegagalan panen bagi para petani di Kenya.
