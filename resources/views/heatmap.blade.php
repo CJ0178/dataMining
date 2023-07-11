@@ -1,4 +1,8 @@
-<div id="container">ini heatmap</div>
+<div id="container" class="">
+    <p class="text-4xl font-bold text-center mb-8 pt-8">
+        Heatmap of Variable Correlations
+    </p>
+</div>
 
 <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
 <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-heatmap.min.js"></script>
@@ -509,25 +513,12 @@
     // create the chart and set the data
     chart = anychart.heatMap(data);
 
-    // set the chart title
-    chart.title("Human Development Index by region (2010-2018)");
-
-    // create and configure the color scale.
     var customColorScale = anychart.scales.linearColor();
     customColorScale.colors(["#C98A16", "#F8D9A0", "#96D0BD", "#5C9998", "#2C7877"]);
 
-    // var customColorScale = anychart.scales.ordinalColor();
-    // customColorScale.ranges([
-    //     { less: -0.001 },
-    //     { from: 0, to: 0.399 },
-    //     { from: 0.0.4, to: 0.799 },
-    //     { greater: 0.8 }
-    // ]);
 
     // set the color scale as the color scale of the chart
     chart.colorScale(customColorScale);
-
-
 
     // set the container id
     chart.container("container");
@@ -543,7 +534,7 @@
 <style>
     #container {
       width: 100%;
-      height: 15%;
+      height: 8%;
       margin: 0;
       padding: 0;
     }

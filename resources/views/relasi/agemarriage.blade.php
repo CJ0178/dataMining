@@ -1,12 +1,78 @@
-<div id="agemarriage">
-    ini agemarriage <br>
+<script>
+
+    anychart.onDocumentReady(function () {
+        var data5 = [
+        { x: "Married", y: "Age", heat: -0.39 },
+        { x: "Age", y: "Married", heat: -0.39 },
+        { x: "Married", y: "Married", heat: 1 },
+        { x: "Age", y: "Age", heat: 1 },
+    ];
+
+    // create the chart and set the data
+    chart5 = anychart.heatMap(data5);
+
+    var customColorScale5 = anychart.scales.linearColor();
+    customColorScale5.colors(["#78BDBC", "#F4C56C"]);
+
+
+    // set the color scale as the color scale of the chart
+    chart5.colorScale(customColorScale5);
+
+    // set the container id
+    chart5.container("agemarriedheatmap");
+
+    chart5.labels().enabled(true)
+
+    // initiate drawing the chart
+    chart5.draw();
+
+    });
+</script>
+
+<style>
+    #agemarriedheatmap {
+        width: 35%;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+</style>
+
+<div id="agemarriage" class="pt-6">
+    <p class="text-4xl font-bold text-center mb-8 text-[#2C7877]">
+        Age & Married
+    </p>
+</div>
+
+<div class="flex justify-center h-[450px] gap-12 px-12 items-center">
+    <div id="agemarriedheatmap" class=""></div>
+
+    <div class="overflow-hidden w-[95%] mx-auto" id="agemarried">
+        <canvas class="p-10" id="chartLine2"></canvas>
+    </div>
+</div>
+
+<div class="mt-12 text-lg px-24 mb-32 text-justify">
+    <p class="text-center">
+        Berdasarkan grafik garis di atas, dapat dilihat <span class="font-bold">rentang umur 15-30</span> memiliki rata-rata status perkawinan yang <span class="font-bold">tinggi</span> dibandingkan dengan rentang umur yang lebih tua.
+    </p>
+    <p class="mt-12">
+        Ada beberapa faktor yang menyebabkan banyaknya pernikahan pada usia muda di Kenya.(John Kabutha Mugo et al., 2020)
+    </p>
+    <ul class="list-disc pl-12">
+        <li>Adanya ketidaksetaraan gender dimana perempuan dianggap lebih rendah daripada laki-laki.</li>
+        <li>Pernikahan muda menjadi solusi untuk mengatasi kemiskinan.</li>
+        <li>Menikahkan anak perempuan yang dropout dari sekolah</li>
+        <li>Tradisi tidak etis dimana menikahkan paksa anak perempuan dengan kerabat di usia muda (8-12 tahun)</li>
+        <li>Hukum yang tidak cukup kuat dalam mengatur pernikahan anak</li>
+        <li>Pernikahan muda sudah menjadi hal yang normal bagi masyarakat sosial di Kenya</li>
+    </ul>
+    <a href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a>
 </div>
 
 <!-- Component -->
-<div class="overflow-hidden w-[95%] mx-auto" id="agemarried">
-    <div class="py-3 px-5 bg-gray-50 text-center text-lg font-bold">Average Married by Age Group</div>
-    <canvas class="p-10" id="chartLine2"></canvas>
-</div>
+
 
 <!-- Required chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1"></script>
@@ -51,6 +117,7 @@
                         font: {
                             size: 16 // Ukuran font pada label sumbu x
                         },
+                        color: "#000000",
                     },
                 },
                 y: {
@@ -67,10 +134,19 @@
                         font: {
                             size: 16 // Ukuran font pada label sumbu x
                         },
+                        color: "#000000",
                     },
                 }
             },
             plugins: {
+                title: {
+                    display: true,
+                    text: 'Average Marriage by Age Group',
+                    color: "#000000",
+                    font: {
+                        size: 18,
+                    },
+                },
                 datalabels: {
                     anchor: 'end',
                     align: 'top',
@@ -82,12 +158,6 @@
                     },
                 },
                 legend: {
-                    // labels: {
-                    //     font: {
-                    //         size: 16, // Ukuran font pada legend
-                    //         weight: 'bold'
-                    //     },
-                    // },
                     display: false,
                 },
             },
