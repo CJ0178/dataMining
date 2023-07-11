@@ -563,7 +563,7 @@
     </div>
 </div>
 
-<div id="age" class="pt-14">
+<div id="age" class="py-14 pt-24">
     <p class="text-3xl font-bold text-[#2C7877] mb-8 underline">
         Penjelasan Atribut
     </p>
