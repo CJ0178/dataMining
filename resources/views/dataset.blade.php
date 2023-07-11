@@ -566,7 +566,7 @@
     </div>
 </div>
 
-<div class="flex flex-col items-center bg-red-300">
+<div class="flex flex-col items-center">
     <div class="flex items-center">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit p-10 h-auto text-white">Survey_id</div>
         <p>Unique identifier assigned to each survey conducted to collect data from individuals.
