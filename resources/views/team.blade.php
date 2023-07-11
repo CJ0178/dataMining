@@ -23,7 +23,7 @@
     }
 </style>
 
-<div class="header  my-64">
+<div class="header h-screen flex flex-col justify-center">
     <div class="container inline-flex items-center justify-center">
         <div>
             <h1 class="text-5xl text-center mr-5 font-bold">Depression In Kenya 2015</h1>
