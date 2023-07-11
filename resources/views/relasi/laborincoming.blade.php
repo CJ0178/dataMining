@@ -50,7 +50,7 @@
 
 <div class="my-8 text-lg px-24">
     <p class="text-center">
-        Individu yang menjadi tulang punggung kemungkinan besar bermata pencaharian sebagai .<span class="font-bold">karyawan yang menerima gaji</span>.
+        Individu yang menjadi tulang punggung kemungkinan besar bermata pencaharian sebagai <span class="font-bold">karyawan yang menerima gaji</span>.
     </p>
 </div>
 

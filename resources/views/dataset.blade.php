@@ -19,119 +19,119 @@
         <div class="overflow-auto">
           <table
             class="min-w-full border text-center text-sm font-light dark:border-neutral-500">
-            <thead class="border-b font-medium dark:border-neutral-500">
+            <thead class="border-b dark:border-neutral-500">
               <tr class="bg-[#5C9998]">
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   Survey_id
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   Ville_id
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   sex
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   Age
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   Married
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   Number_children
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   education_level
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   total_members
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   gained_asset
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   durable_asset
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   save_asset
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   living_expenses
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   other_expenses
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   incoming_salary
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   incoming_own_farm
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   incoming_business
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   incoming_no_business
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   incoming_agricultural
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   farm_expenses
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   labor_primary
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   lasting_investment
                 </th>
                 <th
                   scope="col"
-                  class="border-r p-2 dark:border-neutral-500">
+                  class="border-r p-2 text-white dark:border-neutral-500">
                   no_lasting_investmen
                 </th>
-                <th scope="col" class="p-2">depressed
+                <th scope="col" class="p-2 text-white">depressed
                 </th>
               </tr>
             </thead>

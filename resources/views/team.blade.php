@@ -35,9 +35,9 @@
         </div>
         <img src="image-removebg-preview (6).png" alt="" class="tester">
     </div>
-    <div class="button-awal">
+    <a href="#dataset" class="button-awal">
         <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
             START NOW
           </button>
-    </div>
+    </a>
 </div>
