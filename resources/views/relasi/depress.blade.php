@@ -44,13 +44,35 @@
     // initiate drawing the chart
     chart2.draw();
 
+    // Get the x-axis object
+    var xAxis2 = chart2.xAxis();
+
+    // Configure the rotation of the x-axis labels
+    xAxis2.labels().rotation(330);
+
+    chart2.labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(12) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart2.xAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart2.yAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+
     });
 </script>
 
 <style>
     #agedepres {
     width: 100%;
-    height: 0.8%;
+    height: 1.3%;
     margin: 0;
     padding: 0;
     }

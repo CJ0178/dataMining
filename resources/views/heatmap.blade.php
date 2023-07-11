@@ -533,9 +533,25 @@
     var xAxis = chart.xAxis();
 
     // Configure the rotation of the x-axis labels
-    xAxis.labels().rotation(290);
+    xAxis.labels().rotation(330);
     // Set the position of the x-axis labels to bottom
     // xAxis.labels().position("bottom");
+
+    chart.labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(12) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart.xAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
+    chart.yAxis().labels()
+    .fontColor("#000000") // Set the font color
+    .fontSize(13) // Set the font size
+    .fontWeight("bold"); // Set the font weight to bold
+
 
   });
 </script>
