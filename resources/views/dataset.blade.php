@@ -1,8 +1,14 @@
 <div id="dataset" class="text-center pt-16 pb-8">
-    <p class="text-4xl font-bold mb-8">
+    <p class="text-4xl font-bold">
         Dataset Penduduk Kenya di Daerah Pedalaman pada Tahun 2015
     </p>
-    <p class="text-gray-400">
+    <div class="flex gap-3 justify-center items-center">
+        <p class="text-4xl font-bold">
+            dari
+        </p>
+        <img src="logoKaggle.png" class="w-28 mt-3" alt="">
+    </div>
+    <p class="text-gray-400 mt-5">
         Berikut adalah data sampel dari dataset yang digunakan
     </p>
 </div>
@@ -560,97 +566,97 @@
     </div>
 </div>
 
-<div class="flex flex-col items-center bg-red-200 ">
+<div class="flex flex-col items-center bg-red-300">
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-48 p-10 h-auto text-white">Survey_id</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit p-10 h-auto text-white">Survey_id</div>
         <p>Individual identifier</p>
     </div>
     <div class="flex items-center">
         <p>Village identifier</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Ville_id</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Ville_id</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Sex</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Sex</div>
         <p>Respondent's gender</p>
     </div>
     <div class="flex items-center">
         <p>Respondent's age</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Age</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Age</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Marriage</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Marriage</div>
         <p>Marital status</p>
     </div>
     <div class="flex items-center">
         <p>Number of children under 18 years old</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Number_children</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Number_children</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Education_level</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Education_level</div>
         <p>Years of education completed</p>
     </div>
     <div class="flex items-center">
         <p>Household size</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Total_members</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Total_members</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Gained_asset</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Gained_asset</div>
         <p></p>
     </div>
     <div class="flex items-center">
         <p>Value of durable goods</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Durable_asset</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Durable_asset</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Save_asset</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Save_asset</div>
         <p>Value of saving</p>
     </div>
     <div class="flex items-center">
         <p></p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Living_expenses</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Living_expenses</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Other_expenses</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Other_expenses</div>
         <p></p>
     </div>
     <div class="flex items-center">
-        <p>Value of durable goods</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_salary</div>
+        <p>This attribute refers to the income received by an individual through employment or work done for an employer. It represents the regular earnings received by an individual in exchange for their services or work performed within an organization or company.</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_salary</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_own_farm</div>
-        <p>Own farm primary income</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_own_farm</div>
+        <p>This attribute specifically relates to the income generated from agricultural or farming activities that an individual owns and operates. It signifies the earnings obtained from cultivating crops, raising livestock, or engaging in other agricultural practices on their own farmland or agricultural property.</p>
     </div>
     <div class="flex items-center">
-        <p>Non-agricultural business primary income</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_business</div>
+        <p>This attribute pertains to the income generated from one's own business or entrepreneurial ventures. It signifies the revenue or profits earned by individuals who have established their own enterprises, such as small businesses, startups, or professional services.</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_business</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_no_business</div>
-        <p>Non-agricultural business owner</p>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_no_business</div>
+        <p>This attribute represents the absence of income derived from any business activities. It refers to individuals who do not generate revenue through their own business ventures and instead rely on other sources of income, such as employment, investments, or passive income streams.</p>
     </div>
     <div class="flex items-center">
         <p></p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Incoming_agricultural</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Incoming_agricultural</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Farm_expenses</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Farm_expenses</div>
         <p>Farm low expense monthly</p>
     </div>
     <div class="flex items-center">
         <p>Casual on which labor primary source of income</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Labor_primary</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Labor_primary</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Lasting_investment</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Lasting_investment</div>
         <p>Durable investment</p>
     </div>
     <div class="flex items-center">
         <p>Non-durable investment</p>
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">No_lasting_investmen</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">No_lasting_investmen</div>
     </div>
     <div class="flex items-center">
-        <div class="text-3xl bg-[#96D0BD] rounded-full w-24 h-auto text-white p-12">Depressed</div>
+        <div class="text-3xl bg-[#96D0BD] rounded-full w-fit h-auto text-white p-12">Depressed</div>
         <p>Meets epidemiological result for moderate depression</p>
     </div>
 </div>

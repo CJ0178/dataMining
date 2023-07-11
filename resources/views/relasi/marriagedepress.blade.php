@@ -1,5 +1,67 @@
-<div id="marriagedepress">
-    ini marriagedepress
+<script>
+    anychart.onDocumentReady(function () {
+        var data4 = [
+        { x: "Ville_id", y: "depressed", heat: 0.028 },
+        { x: "sex", y: "depressed", heat: 0.0057 },
+        { x: "Age", y: "depressed", heat: 0.1 },
+        { x: "Married", y: "depressed", heat: -0.064 },
+        { x: "Number_children", y: "depressed", heat: 0.0034 },
+        { x: "education_level", y: "depressed", heat: -0.097 },
+        { x: "total_members", y: "depressed", heat: 0.033 },
+        { x: "gained_asset", y: "depressed", heat: -0.0051 },
+        { x: "durable_asset", y: "depressed", heat: 0.038 },
+        { x: "save_asset", y: "depressed", heat: 0.011 },
+        { x: "living_expenses", y: "depressed", heat: -0.024 },
+        { x: "other_expenses", y: "depressed", heat: 0.011 },
+        { x: "incoming_salary", y: "depressed", heat: -0.0018 },
+        { x: "incoming_own_farm", y: "depressed", heat: 0.01 },
+        { x: "incoming_business", y: "depressed", heat: -0.029 },
+        { x: "incoming_no_business", y: "depressed", heat: -0.026 },
+        { x: "incoming_agricultural", y: "depressed", heat: -0.019 },
+        { x: "farm_expenses", y: "depressed", heat: -0.0051 },
+        { x: "labor_primary", y: "depressed", heat: -0.01 },
+        { x: "lasting_investment", y: "depressed", heat: 0.0045 },
+        { x: "no_lasting_investmen", y: "depressed", heat: 0.052 },
+        { x: "depressed", y: "depressed", heat: 1 },
+    ];
+
+    // create the chart and set the data
+    chart4 = anychart.heatMap(data4);
+
+    var customColorScale4 = anychart.scales.linearColor();
+    customColorScale4.colors(["#C98A16", "#F8D9A0", "#96D0BD", "#5C9998", "#2C7877"]);
+
+
+    // set the color scale as the color scale of the chart
+    chart4.colorScale(customColorScale4);
+
+    // set the container id
+    chart4.container("marriageheatmap");
+
+    chart4.labels().enabled(true)
+
+    // initiate drawing the chart
+    chart4.draw();
+
+    });
+</script>
+
+<style>
+    #marriageheatmap {
+        width: 100%;
+        height: 1%;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<div id="marriagedepress" class="mt-32 pt-6">
+    <p class="text-3xl font-bold text-[#2C7877] mb-8 underline">
+        Married & Depressed
+    </p>
+</div>
+
+<div id="marriageheatmap" class="">
 </div>
 
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
@@ -11,6 +73,17 @@
             <canvas id="chartjs_bar1"></canvas>
         </div>
     </div>
+</div>
+
+<div class=" mt-12 text-lg px-24">
+    <p class="text-center">
+        Berdasarkan grafik batang di atas, status <span class="font-bold">"Non-Married"</span> lebih berpotensi mengalami depresi dibandingkan dengan status "Married". <br>
+        Status "Non-Married" meliputi individu yang belum menikah sama sekali dan yang pernah menikah dan kemudian bercerai.
+    </p>
+    <p class="mt-8">
+        Ada sebuah studi menunjukkan bahwa individu yang bercerai/janda lebih mungkin untuk mengalami depresi, dibandingkan dengan mereka yang menikah/belum menikah (Liang Pan et al., 2021)
+    </p>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0165032722001288" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1"></script>

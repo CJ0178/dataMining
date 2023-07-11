@@ -1,120 +1,205 @@
-<div id="laborincoming">
-    ini laborincoming
+<script>
+
+    anychart.onDocumentReady(function () {
+        var data6 = [
+        { x: "incoming_salary", y: "labor_primary", heat: 0.9 },
+        { x: "incoming_own_farm", y: "labor_primary", heat: -0.3 },
+        { x: "incoming_business", y: "labor_primary", heat: -0.18 },
+        { x: "incoming_no_business", y: "labor_primary", heat: -0.087 },
+    ];
+
+    // create the chart and set the data
+    chart6 = anychart.heatMap(data6);
+
+    var customColorScale6 = anychart.scales.linearColor();
+    customColorScale6.colors(["#C98A16", "#F8D9A0", "#96D0BD", "#5C9998", "#2C7877"]);
+
+
+    // set the color scale as the color scale of the chart
+    chart6.colorScale(customColorScale6);
+
+    // set the container id
+    chart6.container("laborheatmap");
+
+    chart6.labels().enabled(true)
+
+    // initiate drawing the chart
+    chart6.draw();
+
+    });
+</script>
+
+<style>
+    #laborheatmap {
+    width: 50%;
+    height: 1%;
+    margin: 0;
+    padding: 0;
+    }
+</style>
+
+<div id="laborincoming" class="pt-6">
+    <p class="text-4xl font-bold text-center mb-8 text-[#2C7877]">
+        Labor Primary & Income Sources
+    </p>
 </div>
 
-<div class="flex items-center w-[100%] justify-center mx-auto" id="laborincoming">
-<!-- pie chart 1 -->
-<div class="mx-auto">
-    <div class="text-center text-lg bg-gray-50 font-bold">Distribution of Labor Primary 1 by Income Sources</div>
-    <canvas class="p-1 ml-40 mr-40 w-[25vw]" id="chartPie_labor1"></canvas>
-  </div>
+<div class="flex justify-center">
+    <div id="laborheatmap" class=""></div>
+</div>
 
-  <!-- Required chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
+<div class="my-8 text-lg px-24">
+    <p class="text-center">
+        Individu yang menjadi tulang punggung kemungkinan besar bermata pencaharian sebagai .<span class="font-bold">karyawan yang menerima gaji</span>.
+    </p>
+</div>
 
-  <!-- Required chartjs-plugin-datalabels -->
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+<div class="flex items-center justify-center gap-24 w-full mt-20">
+    <!-- pie chart 1 -->
+    <div class="w-[30%]">
+        <div class="text-center text-lg bg-gray-50 font-bold">Distribution of Labor Primary 1 by Income Sources</div>
+        <canvas class=" mt-8" id="chartPie_labor1"></canvas>
+    </div>
 
-  <!-- Chart pie -->
-  <script>
-    const dataPie_labor1 = {
-      labels: ["incoming_no_business", "Multiple Sources", "incoming_salary"],
-      datasets: [
-        {
-          data: [18.3, 0.7, 81.0],
-          backgroundColor: ["rgb(255, 99, 132)", "rgb(54, 162, 235)", "rgb(75, 192, 192)"],
-          hoverOffset: 4,
-        },
-      ],
-    };
+    <!-- Required chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
 
-    const configPie_labor1 = {
-        type: "pie",
-        data: dataPie_labor1,
-        options: {
-            plugins: {
-                maintainAspectRatio: false, // Menonaktifkan pengaturan aspek rasio default
-                aspectRatio: 10, // Mengatur aspek rasio sesuai kebutuhan Anda
-                datalabels: {
-                    formatter: (value, context) => {
+    <!-- Required chartjs-plugin-datalabels -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+    <!-- Chart pie -->
+    <script>
+        const dataPie_labor1 = {
+            labels: ["incoming_no_business", "Multiple Sources", "incoming_salary"],
+            datasets: [
+                {
+                    data: [18.3, 0.7, 81.0],
+                    backgroundColor: ["#2C7877", "#5C9998", "rgb(75, 192, 192)"],
+                    hoverOffset: 4,
+                },
+            ],
+        };
+
+        const configPie_labor1 = {
+            type: "pie",
+            data: dataPie_labor1,
+            options: {
+                plugins: {
+                    maintainAspectRatio: false, // Menonaktifkan pengaturan aspek rasio default
+                    aspectRatio: 10, // Mengatur aspek rasio sesuai kebutuhan Anda
+                    datalabels: {
+                        formatter: (value, context) => {
+                            let total = context.dataset.data.reduce((acc, val) => acc + val, 0);
+                            let percentage = ((value * 100) / total).toFixed(1) + "%";
+                            return percentage;
+                        },
+                        color: "#000000",
+                        font: {
+                            size: 16,
+                        },
+                    },
+                    legend: {
+                        position: "bottom", // Atur posisi legend
+                        align: "center", // Atur penempatan legend relatif terhadap posisinya (start, center, end)
+                        labels: {
+                            font: {
+                                size: 14, // Ukuran font pada label sumbu x
+                                weight: 'bold'
+                            },
+                            color: "#000000",
+                        }
+                    },
+                    // datalabels: {
+                    //     fontSize: 12, // Atur ukuran font di sini
+                    //     // Konfigurasi datalabels lainnya
+                    // },
+                },
+            },
+        };
+        Chart.register(ChartDataLabels);
+        var chartPie_labor1 = new Chart("chartPie_labor1", configPie_labor1);
+    </script>
+
+    <!-- pie chart 2 -->
+    <div class="w-[30%]">
+        <div class="font-bold text-lg bg-gray-50 text-center">Distribution of Labor Primary 0 by Income Sources</div>
+        <canvas class="mt-8" id="chartPie_labor2"></canvas>
+    </div>
+
+    <!-- Required chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
+
+    <!-- Required chartjs-plugin-datalabels -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+    <!-- Chart pie -->
+    <script>
+        const dataPie_labor2 = {
+            labels: ["incoming_own_farm", "Multiple Sources", "incoming_no_business", "incoming_business"],
+            datasets: [
+            {
+                data: [43.1, 0.4, 38.0, 18.5],
+                backgroundColor: ["#C98A16", "#724C05", "#FFBB3E", "#F8D9A0", ],
+                hoverOffset: 4,
+            },
+            ],
+        };
+
+        const configPie_labor2 = {
+            type: "pie",
+            data: dataPie_labor2,
+            options: {
+                plugins: {
+                    // title: {
+                    //     display: true,
+                    //     text: 'Distribution of Labor Primary 0 by Income Sources',
+                    //     color: "#000000",
+                    //     font: {
+                    //         size: 18,
+                    //     },
+                    // },
+                    datalabels: {
+                        formatter: (value, context) => {
                         let total = context.dataset.data.reduce((acc, val) => acc + val, 0);
                         let percentage = ((value * 100) / total).toFixed(1) + "%";
                         return percentage;
+                        },
+                        color: "#000000",
+                        font: {
+                            size: 16,
+                        },
                     },
-                    color: "#000000",
-                    font: {
-                        size: 16,
+                    legend: {
+                        position: "bottom", // Atur posisi legend
+                        align: "center", // Atur penempatan legend relatif terhadap posisinya (start, center, end)
+                        labels: {
+                            font: {
+                                size: 14, // Ukuran font pada label sumbu x
+                                weight: 'bold'
+                            },
+                            color: "#000000",
+                        }
                     },
+                    // datalabels: {
+                    //     fontSize: 100, // Atur ukuran font di sini
+                    //     // Konfigurasi datalabels lainnya
+                    // },
                 },
-                legend: {
-                    position: "top", // Atur posisi legend
-                    align: "start", // Atur penempatan legend relatif terhadap posisinya (start, center, end)
-                },
-                // datalabels: {
-                //     fontSize: 12, // Atur ukuran font di sini
-                //     // Konfigurasi datalabels lainnya
-                // },
             },
-        },
-    };
-    Chart.register(ChartDataLabels);
-    var chartPie_labor1 = new Chart("chartPie_labor1", configPie_labor1);
-  </script>
+        };
+        Chart.register(ChartDataLabels);
+        var chartPie_labor2 = new Chart("chartPie_labor2", configPie_labor2);
+    </script>
 
-<!-- pie chart 2 -->
-<div class="mx-auto">
-    <div class="font-bold text-lg bg-gray-50 text-center">Distribution of Labor Primary 0 by Income Sources</div>
-    <canvas class="p-1 ml-40 mr-40 w-[25vw]" id="chartPie_labor2"></canvas>
-  </div>
+</div>
 
-  <!-- Required chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
-
-  <!-- Required chartjs-plugin-datalabels -->
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
-
-  <!-- Chart pie -->
-  <script>
-    const dataPie_labor2 = {
-      labels: ["incoming_own_farm", "Multiple Sources", "incoming_no_business", "incoming_business"],
-      datasets: [
-        {
-          data: [43.1, 0.4, 38.0, 18.5],
-          backgroundColor: ["rgb(54, 162, 235)", "#FF0000", "#228B22", "#FFA07A"],
-          hoverOffset: 4,
-        },
-      ],
-    };
-
-    const configPie_labor2 = {
-        type: "pie",
-        data: dataPie_labor2,
-        options: {
-            plugins: {
-                datalabels: {
-                    formatter: (value, context) => {
-                    let total = context.dataset.data.reduce((acc, val) => acc + val, 0);
-                    let percentage = ((value * 100) / total).toFixed(1) + "%";
-                    return percentage;
-                    },
-                    color: "#000000",
-                    font: {
-                        size: 16,
-                    },
-                },
-                legend: {
-                    position: "top", // Atur posisi legend
-                    align: "start", // Atur penempatan legend relatif terhadap posisinya (start, center, end)
-                },
-                // datalabels: {
-                //     fontSize: 100, // Atur ukuran font di sini
-                //     // Konfigurasi datalabels lainnya
-                // },
-            },
-        },
-    };
-    Chart.register(ChartDataLabels);
-    var chartPie_labor2 = new Chart("chartPie_labor2", configPie_labor2);
-  </script>
-
+<div class=" mt-12 text-lg px-24 mb-32 text-justify">
+    <p class="text-center">
+        Berdasarkan pie chart Labor Primary 1, <span class="font-bold">incoming salary</span> menjadi sumber mata pencaharian individu yang merupakan tulang punggung. <br>
+        Sedangkan berdasarkan pie chart Labor Primary 0, <span class="font-bold">incoming own farm</span> merupakan sumber mata pencaharian yang paling tidak dijadikan sumber penghasilan utama.
+    </p>
+    <p class="mt-24">
+        (John Kabutha Mugo et al., 2020)
+    </p>
+    <a href="https://africasciencenews.org/2017/04/07/kenya-elderly-want-government-action-against-depression/" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a>
 </div>

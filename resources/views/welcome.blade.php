@@ -20,11 +20,28 @@
             @include('team')
             @include('dataset')
             @include('heatmap')
+            <div id="depress" class="my-48">
+                <hr class="border-[#5C9998] border-2">
+                <hr class="mt-1 border-[#5C9998] border-1">
+            </div>
+            @include('relasi/depress')
             @include('relasi/agedepres')
             @include('relasi/edudepres')
             @include('relasi/marriagedepress')
+            <div id="depress" class="my-48">
+                <hr class="border-[#5C9998] border-2">
+                <hr class="mt-1 border-[#5C9998] border-1">
+            </div>
             @include('relasi/ageedu')
+            <div id="depress" class="my-48">
+                <hr class="border-[#5C9998] border-2">
+                <hr class="mt-1 border-[#5C9998] border-1">
+            </div>
             @include('relasi/agemarriage')
+            <div id="depress" class="my-48">
+                <hr class="border-[#5C9998] border-2">
+                <hr class="mt-1 border-[#5C9998] border-1">
+            </div>
             @include('relasi/laborincoming')
         </div>
     </div>
