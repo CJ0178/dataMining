@@ -90,7 +90,7 @@
     var myChart_ageedu = new Chart(ctx_ageedu, {
         type: 'bar',
         data: {
-            labels: ["Teenagers (12-25)", "Adults (26-45)", "Elderly (>46)"],
+            labels: ["Teenagers (12-25)", "Adults (26-45)", "Elderly (>45)"],
             datasets: [{
                 // label: 'Teenagers',
                 data: [9.16, 9.23, 6.48],

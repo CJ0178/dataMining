@@ -72,7 +72,7 @@
 <style>
     #agedepres {
     width: 100%;
-    height: 1.3%;
+    height: 1%;
     margin: 0;
     padding: 0;
     }
@@ -80,7 +80,7 @@
 
 {{-- <div class="py-32 pb-64"> --}}
     <div class="pt-32">
-        <p class="text-4xl font-bold text-center mb-8 text-[#2C7877]">
+        <p class="text-5xl font-bold text-center mb-8 text-[#2C7877]">
             Influential Attribute for "Depressed"
         </p>
     </div>
@@ -88,8 +88,17 @@
     <div id="agedepres" class="">
     </div>
 
-    <div class="text-center mt-12 text-lg pb-72">
-        <p>Dari korelasi pada atribut "Depressed", korelasi yang terbesar (mendekati angka 1) adalah korelasi dengan atribut "<span class="font-bold">Age</span>". <br>
-        Korelasi yang terkecil (menjauhi angka 0 secara negatif) adalah korelasi dengan atribut "<span class="font-bold">Education_level</span>" dan "<span class="font-bold">Married</span>"</p>
+    <div class="mt-12 text-2xl pb-72">
+        <p class="text-center flex flex-col justify-center items-center">
+            Tiga atribut teratas yang paling mempengaruhi status depresi: <br>
+            <div class="w-fit ml-[700px] mt-4">
+                <ul class="list-disc">
+                    <li><span class="font-bold">Age</span> (positif)</li>
+                    <li><span class="font-bold">Education_level</span> (negatif)</li>
+                    <li><span class="font-bold">Married</span> (negatif)</li>
+                </ul>
+            </div>
+            {{-- Dari korelasi pada atribut "Depressed", korelasi yang terbesar (mendekati angka 1) adalah korelasi dengan atribut "<span class="font-bold">Age</span>". <br>
+        Korelasi yang terkecil (menjauhi angka 0 secara negatif) adalah korelasi dengan atribut "<span class="font-bold">Education_level</span>" dan "<span class="font-bold">Married</span>"</p> --}}
     </div>
 {{-- </div> --}}

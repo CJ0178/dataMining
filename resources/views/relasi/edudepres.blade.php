@@ -71,7 +71,7 @@
 <style>
     #eduheatmap {
         width: 100%;
-        height: 1.3%;
+        height: 1%;
         margin: 0;
         padding: 0;
     }
@@ -87,7 +87,7 @@
 </div>
 
 <!-- 1 -->
-<div class="overflow-hidden mt-12 mx-auto w-[70%]" id="edudepres">
+<div class="overflow-hidden mt-4 mx-auto w-[70%]" id="edudepres">
     <div class="py-3 px-5 text-xl font-bold text-center">Average Degree of Depression by Education Level Groups</div>
     <canvas class="m-10 " id="chartLine"></canvas>
 </div>
