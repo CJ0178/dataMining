@@ -516,6 +516,7 @@
     var customColorScale = anychart.scales.linearColor();
     customColorScale.colors(["#C98A16", "#F8D9A0", "#96D0BD", "#5C9998", "#2C7877"]);
 
+    chart.xAxis().overlapMode('allow-overlap');
 
     // set the color scale as the color scale of the chart
     chart.colorScale(customColorScale);
@@ -527,6 +528,14 @@
 
     // initiate drawing the chart
     chart.draw();
+
+    // Get the x-axis object
+    var xAxis = chart.xAxis();
+
+    // Configure the rotation of the x-axis labels
+    xAxis.labels().rotation(290);
+    // Set the position of the x-axis labels to bottom
+    // xAxis.labels().position("bottom");
 
   });
 </script>
