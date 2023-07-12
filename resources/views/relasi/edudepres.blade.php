@@ -102,14 +102,14 @@
 <div class=" mt-2 text-xl px-24">
 
     <ul class="list-disc text-gray-500 text-2xl">
-        <li>Education level 1-8 (primary education) Kenya Ceriticate of Primary Education (KCPE).</li>
-        <li>Education level 9-12 (secondary education) Kenya Certificate of Secondary Education (KCSE).</li>
-        <li>Education level 13-19 (university education) Bachelor (undergraduate).</li>
+        <li>Education level 1-8 (primary education) Kenya Ceriticate of Primary Education (KCPE)</li>
+        <li>Education level 9-12 (secondary education) Kenya Certificate of Secondary Education (KCSE)</li>
+        <li>Education level 13-19 (university education) Bachelor (undergraduate)</li>
     </ul>
     <a href="https://www.knqa.go.ke/wp-content/uploads/2018/10/education-system-kenya.pdf" class="underline text-[#5C9998] hover:text-[#2C7877]">(Education system Kenya, 2015)</a>
 
     <p class="text-center text-2xl mt-12">
-        Individu dengan <span class="font-bold text-[#E96832]">education level yang rendah</span> lebih berpotensi untuk menderita depresi. <br>
+        Paling berpotensi depresi: individu dengan <span class="font-bold text-[#E96832]">education level yang rendah</span> <br>
     </p>
 </div>
 
