@@ -106,11 +106,11 @@
 
 <div class="mt-6 text-xl px-24">
     <p class="text-center text-2xl">
-        Rentang umur yang paling berpotensi menderita depresi adalah <span class="font-bold text-[#E96832]">kaum lansia</span>  (80-90).
+        Paling berpotensi depresi: <span class="font-bold text-[#E96832]">kaum lansia</span>  (80-90)
     </p>
     <p class="mt-8 text-2xl">
-        Kaum lansia di Kenya kebanyakan ditelantarkan oleh anggota keluarganya, yang menyebabkan mereka kesulitan untuk menghidupi dirinya sendiri dikarenakan
-        penghasilan yang kurang memadai untuk merawat kesehatan mental mereka. <a href="https://africasciencenews.org/2017/04/07/kenya-elderly-want-government-action-against-depression/" class="underline text-[#5C9998] hover:text-[#2C7877]">(Africa Science News, 2016)</a>
+        Kaum lansia di Kenya kebanyakan ditelantarkan oleh anggota keluarganya, sehingga sulit untuk menghidupi dirinya
+        sendiri dan kesehatan mental karena penghasilan yang kurang memadai. <a href="https://africasciencenews.org/2017/04/07/kenya-elderly-want-government-action-against-depression/" class="underline text-[#5C9998] hover:text-[#2C7877]">(Africa Science News, 2016)</a>
     </p>
     {{-- <a href="https://africasciencenews.org/2017/04/07/kenya-elderly-want-government-action-against-depression/" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a> --}}
 </div>
