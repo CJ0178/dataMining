@@ -605,7 +605,7 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Married</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Status sudah menikah (1) atau belum menikah (0)
+        <p class="pl-6 text-xl">Status sudah menikah (1) atau tidak menikah (0)
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
