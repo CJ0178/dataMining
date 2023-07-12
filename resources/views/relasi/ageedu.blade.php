@@ -55,7 +55,7 @@
     }
 </style>
 
-<div id="ageedu" class="pt-6">
+<div id="ageedu" class="pt-14">
     <p class="text-4xl font-bold text-center mb-8 text-[#2C7877]">
         Age & Education Level
     </p>
