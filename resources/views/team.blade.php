@@ -31,15 +31,15 @@
 
             <div class="flex gap-8 mt-4">
                 <div class="text-center">
-                    <img src="foto.JPG" class="w-48 rounded-full" alt="">
+                    <img src="cecil.jpeg" class="w-48 rounded-full" alt="">
                     <p class="font-semibold text-lg text-[#5C9998] mt-4">Cecilia Audrey Herli <br> 2502040461</p>
                 </div>
                 <div class="text-center">
-                    <img src="foto.JPG" class="w-48 rounded-full" alt="">
+                    <img src="charlene.jpeg" class="w-48 rounded-full" alt="">
                     <p class="font-semibold text-lg text-[#5C9998] mt-4">Charlene Jovannie <br> 2502040480</p>
                 </div>
                 <div class="text-center">
-                    <img src="foto.JPG" class="w-48 rounded-full" alt="">
+                    <img src="ma.jpeg" class="w-48 rounded-full" alt="">
                     <p class="font-semibold text-lg text-[#5C9998] mt-4">Michelle Angela <br> 2502041275</p>
                 </div>
             </div>
