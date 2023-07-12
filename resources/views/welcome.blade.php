@@ -67,6 +67,7 @@
                 <hr class="mt-1 border-[#5C9998] border-1">
             </div>
             @include('relasi/laborincoming')
+            @include('kesimpulan')
         </div>
     </div>
     <script type="text/javascript" src="dataMining/node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
