@@ -577,12 +577,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Survey_id</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Pengidentifikasi unik setiap survei
+        <p class="pl-6 text-2xl">Pengidentifikasi unik setiap survei
             <br> <span class="font-bold text-[#2C7877] text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Kode numerik untuk area dalam pedesaan
+        <p class="mr-6 text-2xl text-end">Kode numerik untuk area dalam pedesaan
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -591,12 +591,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-20 py-4 h-auto text-[#2C7877]">Sex</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Laki-laki (1) atau perempuan (0)
+        <p class="pl-6 text-2xl">Laki-laki (1) atau perempuan (0)
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Umur
+        <p class="mr-6 text-2xl text-end">Umur
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -605,12 +605,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Married</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Status sudah menikah (1) atau belum menikah (0)
+        <p class="pl-6 text-2xl">Status sudah menikah (1) atau tidak menikah (0)
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Jumlah anak dibawah 18 tahun yang dimiliki
+        <p class="mr-6 text-2xl text-end">Jumlah anak dibawah 18 tahun yang dimiliki
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -619,12 +619,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Education_level</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Jumlah tahun pendidikan formal yang telah diselesaikan
+        <p class="pl-6 text-2xl">Jumlah tahun pendidikan formal yang telah diselesaikan
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Jumlah orang satu keluarga yang tinggal bersama
+        <p class="mr-6 text-2xl text-end">Jumlah orang satu keluarga yang tinggal bersama
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -633,12 +633,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Gained_asset</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Akumulasi aset yang diperoleh selama periode tertentu
+        <p class="pl-6 text-2xl">Akumulasi aset yang diperoleh selama periode tertentu
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Aset fisik atau kepemilikan yang tahan lama
+        <p class="mr-6 text-2xl text-end">Aset fisik atau kepemilikan yang tahan lama
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -647,12 +647,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-[#2C7877]">Save_asset</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Pendapatan atau aset yang disimpan untuk masa depan
+        <p class="pl-6 text-2xl">Pendapatan atau aset yang disimpan untuk masa depan
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Biaya reguler untuk kehidupan sehari-hari
+        <p class="mr-6 text-2xl text-end">Biaya reguler untuk kehidupan sehari-hari
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -661,12 +661,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Other_expenses</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Biaya tambahan lainnya
+        <p class="pl-6 text-2xl">Biaya tambahan lainnya
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Penghasilan dari pekerjaan organisasi atau perusahaan
+        <p class="mr-6 text-2xl text-end">Penghasilan dari pekerjaan organisasi atau perusahaan
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -675,12 +675,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-[52px] py-4 h-auto text-[#2C7877]">Incoming_own_farm</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Penghasilan dari kegiatan pertanian
+        <p class="pl-6 text-2xl">Penghasilan dari kegiatan pertanian
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Penghasilan dari bisnis sendiri atau usaha wirausaha
+        <p class="mr-6 text-2xl text-end">Penghasilan dari bisnis sendiri atau usaha wirausaha
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -689,12 +689,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Incoming_no_business</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Penghasilan dari sumber lain, seperti investasi atau aliran pendapatan pasif
+        <p class="pl-6 text-2xl">Penghasilan dari sumber lain, seperti investasi atau aliran pendapatan pasif
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Jumlah pendapatan dari kegiatan pertanian
+        <p class="mr-6 text-2xl text-end">Jumlah pendapatan dari kegiatan pertanian
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -703,12 +703,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-16 py-4 h-auto text-[#2C7877]">Farm_expenses</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Biaya untuk operasi pertanian
+        <p class="pl-6 text-2xl">Biaya untuk operasi pertanian
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Pekerja yang menjadi tulang punggung keluarga
+        <p class="mr-6 text-2xl text-end">Pekerja yang menjadi tulang punggung keluarga
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -717,12 +717,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Lasting_investment</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Jumlah investasi jangka panjang
+        <p class="pl-6 text-2xl">Jumlah investasi jangka panjang
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Jumlah investasi jangka pendek
+        <p class="mr-6 text-2xl text-end">Jumlah investasi jangka pendek
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -731,7 +731,7 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-[#2C7877]">Depressed</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Mengalami depresi (1) atau tidak depresi (0)
+        <p class="pl-6 text-2xl">Mengalami depresi (1) atau tidak depresi (0)
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
