@@ -67,7 +67,7 @@
                 <hr class="mt-1 border-[#5C9998] border-1">
             </div>
             @include('relasi/laborincoming')
-            <div id="depress" class="my-48">
+            <div class="my-48">
                 <hr class="border-[#5C9998] border-2">
                 <hr class="mt-1 border-[#5C9998] border-1">
             </div>
