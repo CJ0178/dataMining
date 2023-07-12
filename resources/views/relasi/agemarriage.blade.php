@@ -71,18 +71,18 @@
 
 <div class="mt-12 text-2xl px-24 mb-32 text-justify">
     <p class="text-center text-2xl">
-        <span class="font-bold text-[#E96832]">Rentang umur 15-30</span> memiliki rata-rata status perkawinan yang <span class="font-bold text-[#E96832]">tinggi</span> dibandingkan dengan rentang umur yang lebih tua.
+        <span class="font-bold text-[#E96832]">Rentang umur 15-30</span> memiliki rata-rata status sudah menikah yang <span class="font-bold text-[#E96832]">tinggi</span>
     </p>
     <p class="mt-12 text-2xl">
-        Ada beberapa faktor yang menyebabkan banyaknya pernikahan pada usia muda di Kenya: <a class="underline text-[#5C9998] hover:text-[#2C7877]" href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/">(Girls Not Brides)</a>
+        Faktor penyebab banyaknya pernikahan pada usia muda di Kenya: <a class="underline text-[#5C9998] hover:text-[#2C7877]" href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/">(Girls Not Brides)</a>
     </p>
     <ul class="list-disc text-2xl pl-12">
-        <li>Adanya <span class="font-bold">ketidaksetaraan gender</span> (perempuan dianggap lebih rendah daripada laki-laki).</li>
-        <li>Pernikahan muda menjadi <span class="font-bold">solusi</span> untuk mengatasi kemiskinan.</li>
-        <li><span class="font-bold">Menikahkan</span> anak perempuan yang dropout dari sekolah</li>
-        <li>Tradisi <span class="font-bold">tidak etis</span> dimana menikahkan paksa anak perempuan dengan kerabat di usia muda (8-12 tahun)</li>
-        <li>Hukum yang <span class="font-bold">tidak cukup kuat</span> dalam mengatur pernikahan anak</li>
-        <li>Pernikahan muda sudah menjadi hal yang <span class="font-bold">normal</span> bagi masyarakat sosial di Kenya</li>
+        <li><span class="font-bold">ketidaksetaraan gender</span> (perempuan dianggap lebih rendah daripada laki-laki)</li>
+        <li>Dianggap sebagai <span class="font-bold">solusi untuk mengatasi kemiskinan</span></li>
+        <li>Apabila <span class="font-bold">anak perempuan dropout dari sekolah</span></li>
+        <li><span class="font-bold">Tradisi tidak etis</span> (menikahkan paksa anak perempuan (8-12 tahun) dengan kerabat)</li>
+        <li><span class="font-bold">Hukum yang tidak cukup kuat</span> dalam mengatur pernikahan anak</li>
+        <li>Pernikahan muda sudah menjadi hal yang <span class="font-bold">normal</span> bagi masyarakat di Kenya</li>
     </ul>
     {{-- <a href="https://www.girlsnotbrides.org/learning-resources/child-marriage-atlas/regions-and-countries/kenya/" class="underline text-[#5C9998] hover:text-[#2C7877]">Open Link >></a> --}}
 </div>
