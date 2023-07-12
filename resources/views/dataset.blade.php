@@ -573,12 +573,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Survey_id</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Unique identifier assigned to each survey conducted to collect data from individuals.
+        <p class="pl-6 text-xl">Pengidentifikasi unik yang ditetapkan untuk setiap survei yang dilakukan.
             <br> <span class="font-bold text-[#2C7877] text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">A numerical or alphanumeric code assigned to a specific locality or area within a village.
+        <p class="mr-6 text-xl text-end">Kode numerik yang ditetapkan untuk lokalitas atau area tertentu di dalam pedesaan.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -587,12 +587,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-20 py-4 h-auto text-[#2C7877]">Sex</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Individual's biological classification as male or female
+        <p class="pl-6 text-xl">Klasifikasi biologis individu sebagai laki-laki atau perempuan.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Number of years an individual has lived since birth
+        <p class="mr-6 text-xl text-end">Jumlah tahun yang telah dijalani seseorang sejak lahir selama hidup.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -601,12 +601,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Marriage_status</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Individual's legal or social status regarding their marriage or partnership.
+        <p class="pl-6 text-xl">Status hukum atau sosial individu mengenai pernikahan atau kemitraan mereka.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">The total count of children an individual has whom under 18 years old.
+        <p class="mr-6 text-xl text-end">Jumlah total anak yang dimiliki seseorang yang berusia di bawah 18 tahun.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -615,12 +615,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Education_level</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">The number of years of formal education an individual has completed.
+        <p class="pl-6 text-xl">Jumlah tahun pendidikan formal yang telah diselesaikan seseorang.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">The overall number of individuals living together and considered <br> as part of a single family unit.
+        <p class="mr-6 text-xl text-end">Jumlah keseluruhan individu yang tinggal bersama dan dianggap <br> sebagai bagian dari satu unit keluarga.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -629,12 +629,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Gained_asset</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">The accumulation of assets or wealth acquired by an individual over a specific period.
+        <p class="pl-6 text-xl">Akumulasi aset atau kekayaan yang diperoleh seseorang selama periode tertentu.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Long-lasting physical assets or possessions owned by an individual.
+        <p class="mr-6 text-xl text-end">Aset fisik atau kepemilikan yang tahan lama yang dimiliki oleh seorang individu.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -643,12 +643,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-[#2C7877]">Save_asset</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">The portion of income or resources set aside or saved for future use by an individual.
+        <p class="pl-6 text-xl">Porsi pendapatan atau sumber daya yang disisihkan atau disimpan untuk digunakan di <br> masa depan oleh seorang individu.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">The regular or recurring costs incurred by an individual to cover basic necessities.
+        <p class="mr-6 text-xl text-end">Biaya reguler atau berulang yang dikeluarkan oleh individu untuk <br> menutupi kebutuhan dasar.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -657,12 +657,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Other_expenses</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Additional or miscellaneous expenses incurred by an individual beyond <br> basic living expenses.
+        <p class="pl-6 text-xl">Biaya tambahan atau lain-lain yang dikeluarkan oleh individu di luar <br> biaya hidup dasar.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Income received by an individual through employment or work performed <br> within an organization or company.
+        <p class="mr-6 text-xl text-end">Penghasilan yang diterima oleh individu melalui pekerjaan atau pekerjaan yang dilakukan <br> dalam organisasi atau perusahaan.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -671,12 +671,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-[52px] py-4 h-auto text-[#2C7877]">Incoming_own_farm</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Income generated from agricultural or farming activities that an <br> individual owns and operates.
+        <p class="pl-6 text-xl">Penghasilan yang dihasilkan dari kegiatan pertanian atau pertanian yang <br> dimiliki dan dioperasikan oleh <br> individu.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Income generated from one's own business or entrepreneurial ventures. <br> It signifies the revenue or profits earned by individuals who have established <br> their own enterprises.
+        <p class="mr-6 text-xl text-end">Penghasilan yang dihasilkan dari bisnis sendiri atau usaha wirausaha. Ini menandakan pendapatan atau keuntungan yang diperoleh oleh individu yang telah mendirikan perusahaan mereka sendiri.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -685,12 +685,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Incoming_no_business</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Income derived from any other sources of income, such as employment, <br> investments, or passive income streams.
+        <p class="pl-6 text-xl">Pendapatan yang diperoleh dari sumber pendapatan lain, seperti pekerjaan, <br> investasi, atau aliran pendapatan pasif.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Income derived from agricultural activities.
+        <p class="mr-6 text-xl text-end">Pendapatan yang diperoleh dari kegiatan pertanian.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -699,12 +699,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-16 py-4 h-auto text-[#2C7877]">Farm_expenses</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">The costs incurred by farmers or agricultural businesses in the process of <br> operating and maintaining their farming operations.
+        <p class="pl-6 text-xl">Biaya yang dikeluarkan oleh petani atau usaha pertanian dalam proses operasi dan pemeliharaan operasi pertanian mereka.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">Casual on which labor primary source of income
+        <p class="mr-6 text-xl text-end">Pekerja lepas yang menjadi sumber pendapatan utama.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -713,12 +713,12 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-10 py-4 h-auto text-[#2C7877]">Lasting_investment</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Long-term investments made by an individual or household with the intention <br> of preserving or growing their wealth over an extended period.
+        <p class="pl-6 text-xl">Investasi jangka panjang yang dilakukan oleh individu atau rumah tangga dengan tujuan <br> untuk mempertahankan atau mengembangkan kekayaan mereka dalam jangka waktu yang lama.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
     </div>
     <div class="flex items-center justify-end pr-64 my-14 w-full">
-        <p class="mr-6 text-xl text-end">The allocation of funds or resources towards short-term investment options <br> or assets that are not intended for long-term wealth accumulation.
+        <p class="mr-6 text-xl text-end">Alokasi dana atau sumber daya untuk opsi investasi jangka pendek <br> atau aset yang tidak dimaksudkan untuk akumulasi kekayaan jangka panjang.
             <br> <span class="font-bold text-[#2C7877]">(Integer)</span>
         </p>
         <hr class="border-[#96D0BD] border-2 w-12">
@@ -727,7 +727,7 @@
     <div class="flex items-center pl-64 w-full">
         <div class="text-3xl bg-[#96D0BD] rounded-full w-fit px-14 py-4 h-auto text-[#2C7877]">Depressed</div>
         <hr class="border-[#96D0BD] border-2 w-12">
-        <p class="pl-6 text-xl">Indicates whether an individual or entity is currently experiencing depression or not.
+        <p class="pl-6 text-xl">Menunjukkan apakah individu atau entitas sedang mengalami depresi atau tidak.
             <br> <span class="font-bold text-[#2C7877]">(Boolean)</span>
         </p>
     </div>
