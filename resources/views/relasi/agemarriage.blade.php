@@ -55,7 +55,7 @@
     }
 </style>
 
-<div id="agemarriage" class="pt-6 pb-8">
+<div id="agemarriage" class="pt-14 pb-8">
     <p class="text-4xl font-bold text-center mb-8 text-[#2C7877]">
         Age & Marriage Status
     </p>
