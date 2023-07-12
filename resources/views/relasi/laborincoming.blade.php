@@ -14,6 +14,7 @@
     var customColorScale6 = anychart.scales.linearColor();
     customColorScale6.colors(["#C98A16", "#F8D9A0", "#96D0BD", "#5C9998", "#2C7877"]);
 
+    // chart6.xAxis().overlapMode('allow-overlap');
 
     // set the color scale as the color scale of the chart
     chart6.colorScale(customColorScale6);
@@ -26,19 +27,23 @@
     // initiate drawing the chart
     chart6.draw();
 
+    // var xAxis22 = chart6.xAxis();
+
+    // xAxis22.labels().rotation(330);
+
     chart6.labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(12) // Set the font size
+    .fontSize(16) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
     chart6.xAxis().labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(13) // Set the font size
+    .fontSize(16) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
     chart6.yAxis().labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(13) // Set the font size
+    .fontSize(18) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
     // Get the x-axis object
@@ -52,8 +57,8 @@
 
 <style>
     #laborheatmap {
-    width: 50%;
-    height: 1%;
+    width: 80%;
+    height: 20%;
     margin: 0;
     padding: 0;
     }
