@@ -71,11 +71,11 @@
 
 <div class=" mt-12 text-2xl px-24 mb-32 text-justify">
     <p class="text-center text-2xl">
-        <span class="font-bold text-[#E96832]">Kaum muda</span> memiliki rata-rata education level yang lebih tinggi dibandingkan dengan kaum lansia.
+        <span class="font-bold text-[#E96832]">Kaum muda</span> memiliki rata-rata education level yang lebih tinggi
     </p>
     <p class="mt-24">
-        Pada tahun 2000, terdapat sebuah forum di Kenya bernama "Dakar World Education Forum" yang memiliki tujuan untuk mencapai 6 ambisi target. Salah satu diantaranya adalah
-        <span class="font-bold">memberikan akses dan pendidikan dasar wajib gratis dengan kualitas yang baik</span> untuk anak-anak, terutama anak perempuan, anak-anak dalam keadaan sulit dan mereka yang berasal dari
+        Pada tahun 2000, sebuah forum di Kenya bernama "Dakar World Education Forum" memiliki tujuan untuk
+        <span class="font-bold">memberikan akses dan pendidikan dasar wajib, gratis, dan berkualitas baik untuk anak-anak</span>, terutama anak perempuan, anak-anak dalam keadaan sulit dan mereka yang berasal dari
         etnis minoritas dalam <span class="font-bold">15 tahun kedepan</span>. <br><br>
         “Laporan tersebut mencatat bahwa antara tahun 2000 dan 2012, jumlah anak putus sekolah secara global turun hingga 42 persen.“ <a href="https://africasciencenews.org/2017/04/07/kenya-elderly-want-government-action-against-depression/" class="underline text-[#5C9998] hover:text-[#2C7877]">(John Kabutha Mugo et al., 2020)</a>
     </p>
