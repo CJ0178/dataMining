@@ -105,11 +105,11 @@
 
 <div class=" mt-6 text-2xl px-24">
     <p class="text-center">
-        Status <span class="font-bold text-[#E96832]">"Non-Married"</span> lebih berpotensi mengalami depresi dibandingkan dengan status "Married". <br>
-        Status "Non-Married" meliputi individu yang belum menikah sama sekali dan yang pernah menikah dan kemudian bercerai.
+        Paling berpotensi depresi: status <span class="font-bold text-[#E96832]">"Non-Married"</span><br>
+        Status "Non-Married": individu yang belum menikah sama sekali, atau pernah menikah dan kemudian bercerai
     </p>
     <p class="mt-8 text-2xl">
-        Ada sebuah studi menunjukkan bahwa individu yang bercerai/janda lebih mungkin untuk mengalami depresi, dibandingkan dengan mereka yang menikah/belum menikah.
+        Sebuah studi menunjukkan bahwa individu yang bercerai/janda lebih mungkin untuk mengalami depresi, dibandingkan dengan mereka yang menikah/belum menikah.
         <a href="https://www.sciencedirect.com/science/article/pii/S0165032722001288" class="underline text-[#5C9998] hover:text-[#2C7877]">(Liang Pan et al., 2021)</a>
     </p>
 </div>
