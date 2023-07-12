@@ -109,7 +109,7 @@
         Status "Non-Married": individu yang belum menikah sama sekali, atau pernah menikah dan kemudian bercerai
     </p>
     <p class="mt-8 text-2xl">
-        Sebuah studi menunjukkan bahwa individu yang bercerai/janda lebih mungkin untuk mengalami depresi, dibandingkan dengan mereka yang menikah/belum menikah.
+        Individu yang bercerai/janda lebih mungkin untuk mengalami depresi, dibandingkan dengan mereka yang menikah/belum menikah.
         <a href="https://www.sciencedirect.com/science/article/pii/S0165032722001288" class="underline text-[#5C9998] hover:text-[#2C7877]">(Liang Pan et al., 2021)</a>
     </p>
 </div>
