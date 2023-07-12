@@ -86,7 +86,7 @@
 </style>
 
 
-<div id="age" class="pt-2">
+<div id="age" class="pt-6">
     <p class="text-3xl font-bold text-[#2C7877] mb-8 underline">
         Age & Depressed
     </p>

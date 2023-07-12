@@ -28,17 +28,17 @@
 
     chart4.labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(12) // Set the font size
+    .fontSize(16) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
     chart4.xAxis().labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(13) // Set the font size
+    .fontSize(18) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
     chart4.yAxis().labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(13) // Set the font size
+    .fontSize(18) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
 
@@ -107,7 +107,7 @@
                     text: 'Average Education Level by Age Group',
                     color: "#000000",
                     font: {
-                        size: 18,
+                        size: 24,
                     },
                 },
                 datalabels: {
@@ -116,13 +116,13 @@
                     formatter: (value) => value,
                     color: "#000000",
                     font: {
-                        size: 14,
+                        size: 20,
                     },
                     labels: {
                         title: {
                             font: {
                                 // weight: 'bold',
-                                size: 16
+                                size: 20
                             }
                         },
                     },
@@ -138,13 +138,13 @@
                         display: true,
                         text: 'Age Groups',
                         font: {
-                            size: 16,
+                            size: 20,
                             weight: 'bold',
                         },
                     },
                     ticks: {
                         font: {
-                            size: 16
+                            size: 18
                         },
                     },
                 },
@@ -154,13 +154,13 @@
                         display: true,
                         text: 'Average Eduucation Level',
                         font: {
-                            size: 16,
+                            size: 20,
                             weight: 'bold',
                         },
                     },
                     ticks: {
                         font: {
-                            size: 16
+                            size: 18
                         },
                         // max: 10,
                         // min: 0,

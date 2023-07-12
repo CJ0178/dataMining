@@ -10,6 +10,10 @@
     </div>
 </div>
 
+<div class="text-center flex justify-center mb-4">
+    <p class="text-white text-xl bg-[#2EA1A0] px-6 rounded-full">23 kolom, 1429 data</p>
+</div>
+
 <div class="flex flex-col w-[98%]">
     <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
       <div class="inline-block w-full py-2 sm:px-6 lg:px-8">

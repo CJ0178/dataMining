@@ -28,17 +28,17 @@
 
     chart5.labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(12) // Set the font size
+    .fontSize(16) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
     chart5.xAxis().labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(13) // Set the font size
+    .fontSize(18) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
     chart5.yAxis().labels()
     .fontColor("#000000") // Set the font color
-    .fontSize(13) // Set the font size
+    .fontSize(18) // Set the font size
     .fontWeight("bold"); // Set the font weight to bold
 
 
@@ -103,7 +103,7 @@
                 // label: "Non-Married",
                 backgroundColor: "#5C9998",
                 borderColor: "#5C9998",
-                data: [0.936, 0.920, 0.892, 0.778, 0.672, 0.632, 0.636, 0.610, 0.500, 0.525, 0.421, 0.286, 0.286, 0.000, 0.000],
+                data: [,0.936, 0.920, 0.892, 0.778, 0.672, 0.632, 0.636, 0.610, 0.500, 0.525, 0.421, 0.286, 0.286, 0.000, 0.000],
             },
             // {
             //     label: "Married",
@@ -125,13 +125,13 @@
                         display: true,
                         text: 'Age Groups',
                         font: {
-                            size: 16, // Ukuran font pada sumbu x
+                            size: 20, // Ukuran font pada sumbu x
                             weight: 'bold',
                         },
                     },
                     ticks: {
                         font: {
-                            size: 16 // Ukuran font pada label sumbu x
+                            size: 18 // Ukuran font pada label sumbu x
                         },
                         color: "#000000",
                     },
@@ -142,13 +142,13 @@
                         display: true,
                         text: 'Average Married',
                         font: {
-                            size: 16, // Ukuran font pada sumbu x
+                            size: 20, // Ukuran font pada sumbu x
                             weight: 'bold',
                         },
                     },
                     ticks: {
                         font: {
-                            size: 16 // Ukuran font pada label sumbu x
+                            size: 18 // Ukuran font pada label sumbu x
                         },
                         color: "#000000",
                     },
@@ -160,7 +160,7 @@
                     text: 'Average Marriage by Age Group',
                     color: "#000000",
                     font: {
-                        size: 18,
+                        size: 24,
                     },
                 },
                 datalabels: {
@@ -170,7 +170,7 @@
                     color: "#000000",
                     font: {
                         // weight: 'bold',
-                        size: 14,
+                        size: 20,
                     },
                 },
                 legend: {
